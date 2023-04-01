@@ -1,28 +1,25 @@
 import React from "react";
-import { Navbar, Button, Link, Text, useTheme } from "@nextui-org/react";
+import { Navbar, Text } from "@nextui-org/react";
 import { Layout } from "./Layout.js";
-import "../styles/globals.css";
+import { Logo } from "./Logo.js";
 
-export default function App() {
+export default function NavbarComponent() {
   const [variant, setVariant] = React.useState("default");
   const [activeColor, setActiveColor] = React.useState("primary");
 
   return (
     <Layout>
-      <Navbar isBordered="no" variant="static">
+      <Navbar isBordered="no" variant="static" activeColor={setActiveColor}>
         <Navbar.Brand>
-          {/* // TODO ADD LOGO */}
-          <Text b color="inherit" hideIn="xs">
+          <Logo />
+          <Text color="inherit" hideIn="xs">
             ElPepe Streams
           </Text>
         </Navbar.Brand>
         <Navbar.Content activeColor={activeColor} hideIn="xs" variant={variant}>
-          <Navbar.Link href="#">Features</Navbar.Link>
-          <Navbar.Link isActive href="#">
-            Customers
-          </Navbar.Link>
-          <Navbar.Link href="#">Pricing</Navbar.Link>
-          <Navbar.Link href="#">Company</Navbar.Link>
+          <Navbar.Link href="/repeticiones">Repeticiones</Navbar.Link>
+          <Navbar.Link href="#">Peliculas</Navbar.Link>
+          <Navbar.Link href="#">Series</Navbar.Link>
         </Navbar.Content>
       </Navbar>
     </Layout>
