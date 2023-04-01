@@ -1,18 +1,22 @@
 import React from "react";
-import { Navbar, Text } from "@nextui-org/react";
-import { Layout } from "../components/Layout";
+import { Navbar, Button, Link, Text, useTheme } from "@nextui-org/react";
+import { Layout } from "./Layout.js";
+import "../styles/globals.css";
 
 export default function App() {
+  const [variant, setVariant] = React.useState("default");
+  const [activeColor, setActiveColor] = React.useState("primary");
+
   return (
     <Layout>
-      <Navbar variant="static">
+      <Navbar isBordered="no" variant="static">
         <Navbar.Brand>
           {/* // TODO ADD LOGO */}
-          <Text color="inherit" hideIn="xs">
+          <Text b color="inherit" hideIn="xs">
             ElPepe Streams
           </Text>
         </Navbar.Brand>
-        <Navbar.Content hideIn="xs">
+        <Navbar.Content activeColor={activeColor} hideIn="xs" variant={variant}>
           <Navbar.Link href="#">Features</Navbar.Link>
           <Navbar.Link isActive href="#">
             Customers
