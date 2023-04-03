@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Text } from "@nextui-org/react";
+import { Navbar, Text, Input } from "@nextui-org/react";
 import { Layout } from "./Layout.js";
 import { Logo } from "./Logo.js";
 
@@ -16,6 +16,14 @@ export default function NavbarComponent() {
             ElPepe Streams
           </Text>
         </Navbar.Brand>
+        <Navbar.Content>
+          {/* // TODO CHECK THEME TOGGLE INPUT FROM THE test.html */}
+          {/* // TODO OR MAKE A DIFFERENT THEME TOGGLE IN THE NAVBAR */}
+          {/* // TODO OR CHANGE THE COLOR OF THE NAVBAR TO DARK */}
+
+          {/* // TODO UNINSTALL NEXT.UI AND INSTALL BULMA --> https://bulma.io/documentation/components/navbar/ */}
+
+        </Navbar.Content>
         <Navbar.Content activeColor={activeColor} hideIn="xs" variant={variant}>
           <Navbar.Link href="/repeticiones">Repeticiones</Navbar.Link>
           <Navbar.Link href="#">Peliculas</Navbar.Link>
