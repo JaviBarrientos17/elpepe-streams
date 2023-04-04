@@ -21,6 +21,8 @@ function MyApp({ Component, pageProps }) {
       <Navbar />
       <Component {...pageProps} />
       <HomeComponent />
+
+      {/* //TODO MIRAR PQ PELICULASCOMPONENT NO LO CARGA Y EL RESTO SÍ */}
     </>
   );
 }
