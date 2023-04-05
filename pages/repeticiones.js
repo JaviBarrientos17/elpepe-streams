@@ -2,7 +2,7 @@ export default function RepeticionesComponent() {
   return (
     <>
     {/* // TODO CHECK WHY THE NAVBAR APPEARS BELOW THE VIDEO PLAYER */}
-      <div id="video-container">
+      {/* <div id="video-container">
         <video
           controls
           id="video-player"
@@ -13,7 +13,8 @@ export default function RepeticionesComponent() {
             type="video/mp4"
           />
         </video>
-      </div>
+      </div> */}
+      <h2>Test 1234</h2>
     </>
   );
 }

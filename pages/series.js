@@ -2,7 +2,7 @@ export default function SeriesComponent() {
   return (
     <>
     {/* // TODO CHECK WHY THE NAVBAR APPEARS BELOW THE VIDEO PLAYER */}
-      <div id="video-container">
+      {/* <div id="video-container">
         <video
           controls
           id="video-player"
@@ -13,7 +13,8 @@ export default function SeriesComponent() {
             type="video/mp4"
           />
         </video>
-      </div>
+      </div> */}
+      <h2>Test</h2>
     </>
   );
 }

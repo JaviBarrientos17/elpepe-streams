@@ -1,4 +1,4 @@
-export function PeliculasComponent() {
+function PeliculasComponent() {
   return (
     <>
     {/* // TODO CHECK WHY THE NAVBAR APPEARS BELOW THE VIDEO PLAYER */}
@@ -17,3 +17,5 @@ export function PeliculasComponent() {
     </>
   );
 }
+
+export default PeliculasComponent;
