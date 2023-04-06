@@ -50,7 +50,9 @@ export default function Peliculas() {
             <p className="text-gray-600">{pelicula.description}</p>
 
             {/* // TODO CHECK WHY THE VIDEO PLAYER DOES NOT LOAD THE AUDIO FROM MKV VIDEOS AND MP4 VIDEOS */}
-            
+
+            {/* // TODO INSTEAD TRY IT WITH PLAYERJS (TAB IS OPENED) */}
+
           </div>
         ))}
       </div>
