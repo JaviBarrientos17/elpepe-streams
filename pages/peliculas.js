@@ -22,7 +22,8 @@ export default function Peliculas() {
     {
       id: 3,
       title: "GP Australia 2007",
-      videoUrl: "https://www.dropbox.com/s/yhyx2vg6451qlrg/01%20-%20Gran%20Premio%20de%20Australia%202007%20%28Albert%20Park%29%20%5B1080p%5D%20-%20ElPepe%20Remix.mkv?raw=1",
+      videoUrl:
+        "https://www.dropbox.com/s/yhyx2vg6451qlrg/01%20-%20Gran%20Premio%20de%20Australia%202007%20%28Albert%20Park%29%20%5B1080p%5D%20-%20ElPepe%20Remix.mkv?raw=1",
       description:
         "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
     },
@@ -47,6 +48,9 @@ export default function Peliculas() {
               </video>
             </div>
             <p className="text-gray-600">{pelicula.description}</p>
+
+            {/* // TODO CHECK WHY THE VIDEO PLAYER DOES NOT LOAD THE AUDIO FROM MKV VIDEOS AND MP4 VIDEOS */}
+            
           </div>
         ))}
       </div>
