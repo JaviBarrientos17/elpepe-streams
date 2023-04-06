@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
-
 import dynamic from "next/dynamic";
+import "../styles/navbar.css";
 
 const Navbar = dynamic(() => import("../components/NavbarComponent"));
 const HomeComponent = dynamic(() => import("../components/HomeComponent"));
