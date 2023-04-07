@@ -1,9 +1,11 @@
-nav,
-div,
-span,
-ul,
-li,
-a {
+nav {
   background-color: black;
   color: white;
+}
+
+.navbarImg,
+.navbarSpan,
+.navbarContent,
+.navbarLinks {
+  background-color: black;
 }

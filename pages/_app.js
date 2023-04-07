@@ -3,6 +3,7 @@ import Head from "next/head";
 import dynamic from "next/dynamic";
 import "../styles/navbar.css";
 import "../styles/videos.css";
+import "../styles/repeticiones.css";
 
 const Navbar = dynamic(() => import("../components/NavbarComponent"));
 const HomeComponent = dynamic(() => import("../components/HomeComponent"));
