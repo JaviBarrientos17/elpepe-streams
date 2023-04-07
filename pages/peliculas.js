@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Head from "next/head";
 
 export default function Peliculas() {
   const [peliculas, setPeliculas] = useState([
@@ -15,7 +16,7 @@ export default function Peliculas() {
       id: 2,
       title: "GP Australia 2006",
       videoUrl:
-        "https://www.dropbox.com/s/pp9o5xu8sl6raqw/03%20-%20Gran%20Premio%20de%20Australia%202006%20%28Albert%20Park%29%20%5B1080p%5D%20-%20ElPepe%20Remix.mp4?raw=1",
+        "https://www.dropbox.com/s/k90qh1q2xbycao7/03%20-%20Gran%20Premio%20de%20Australia%202006%20%28Albert%20Park%29%20%5B1080p%5D%20-%20ElPepe%20Remix_edit.mkv?raw=1",
       description:
         "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
     },
@@ -23,39 +24,39 @@ export default function Peliculas() {
       id: 3,
       title: "GP Australia 2007",
       videoUrl:
-        "https://www.dropbox.com/s/yhyx2vg6451qlrg/01%20-%20Gran%20Premio%20de%20Australia%202007%20%28Albert%20Park%29%20%5B1080p%5D%20-%20ElPepe%20Remix.mkv?raw=1",
+        "",
       description:
         "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
     },
   ]);
 
   return (
-    <div className="container mx-auto">
-      <h1 className="text-center text-3xl font-bold mb-8">Peliculas</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
-        {peliculas.map((pelicula) => (
-          <div key={pelicula.id} className="p-4 shadow rounded-lg">
-            <h2 className="text-lg font-bold">{pelicula.title}</h2>
-            <div className="aspect-w-16 aspect-h-9">
-              <video
-                width="320"
-                height="240"
-                className="w-full h-full rounded-lg"
-                poster={pelicula.poster}
-                controls
-              >
-                <source src={pelicula.videoUrl} type="video/mp4" />
-              </video>
+    <>
+      <Head>
+        <title>ElPepe Streams | Peliculas</title>
+      </Head>
+      <div className="container mx-auto">
+        <h1 className="text-center text-3xl font-bold mb-8">Peliculas</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
+          {peliculas.map((pelicula) => (
+            <div key={pelicula.id} className="p-4 shadow rounded-lg">
+              <h2 className="text-lg font-bold">{pelicula.title}</h2>
+              <div className="aspect-w-16 aspect-h-9">
+                <video
+                  width="320"
+                  height="240"
+                  className="w-full h-full rounded-lg"
+                  poster={pelicula.poster}
+                  controls
+                >
+                  <source src={pelicula.videoUrl} type="video/mp4" />
+                </video>
+              </div>
+              <p className="text-gray-600">{pelicula.description}</p>
             </div>
-            <p className="text-gray-600">{pelicula.description}</p>
-
-            {/* // TODO CHECK WHY THE VIDEO PLAYER DOES NOT LOAD THE AUDIO FROM MKV VIDEOS AND MP4 VIDEOS */}
-
-            {/* // TODO INSTEAD TRY IT WITH PLAYERJS (TAB IS OPENED) */}
-
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
