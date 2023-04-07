@@ -54,6 +54,9 @@ export default function Peliculas() {
               </div>
               <p className="text-gray-600">{pelicula.description}</p>
             </div>
+
+            // TODO DESHABILITAR DESCARGA DEL VIDEO, LO DEL CLIC DERECHO Y LO DEL M3U8
+
           ))}
         </div>
       </div>
