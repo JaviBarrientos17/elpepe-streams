@@ -6,12 +6,15 @@ export default function Peliculas() {
     {
       id: 1,
       title: "Top Gun Maverick",
-      videoUrl:
-        "https://dl.dropboxusercontent.com/s/as9rr67qiesznvc/Top.Gun.Maverick.2022.IMAX.2160p.BluRay.HEVC.TrueHD.7.1.Atmos%20%5BES%20-%20EN%5D-%20ElPepe%20Remix.mkv?raw=1",
+      videoUrl: "https://bit.ly/3zIQmcq",
       poster: "https://bit.ly/3mcCt36",
-      description:
-        "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-    }
+    },
+    {
+      id: 2,
+      title: "Interestellar",
+      videoUrl: "https://bit.ly/3KGurce",
+      poster: "https://bit.ly/3GqlYax",
+    },
   ]);
 
   return (
