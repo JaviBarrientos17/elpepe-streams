@@ -21,6 +21,12 @@ export default function RepeticionesComponent() {
       videoUrl: "https://bit.ly/3KHxVeq",
       poster: "https://bit.ly/410pqAy",
     },
+    {
+      id: 4,
+      title: "GP de Europa 2012",
+      videoUrl: "https://bit.ly/3GrMRuG",
+      poster: "https://bit.ly/3nN1guU",
+    },
   ]);
 
   const handleContextMenu = (event) => {
