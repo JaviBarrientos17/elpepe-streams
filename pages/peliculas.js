@@ -45,6 +45,11 @@ export default function Peliculas() {
             // TODO DESHABILITAR DESCARGA DEL VIDEO, LO DEL CLIC DERECHO Y LO DEL M3U8
           ))}
         </div>
+
+        <a
+          className="bg-indigo-500 text-white font-bold py-4 rounded-md flex items-center justify-center space-x-2"
+          href="/sagas"
+        />
       </div>
     </>
   );
