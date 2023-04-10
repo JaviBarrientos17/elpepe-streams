@@ -20,7 +20,7 @@ export default function Peliculas() {
   return (
     <>
       <Head>
-        <title>ElPepe Streams | Peliculas</title>
+        <title>El Pepe Streams | Peliculas</title>
       </Head>
       <div className="container mx-auto">
         <h1 className="text-center text-3xl font-bold mb-8">Peliculas</h1>

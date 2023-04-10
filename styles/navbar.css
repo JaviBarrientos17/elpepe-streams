@@ -1,4 +1,5 @@
-nav {
+nav,
+.footer {
   background-color: black;
   color: white;
 }
@@ -8,4 +9,8 @@ nav {
 .navbarContent,
 .navbarLinks {
   background-color: black;
+}
+
+.footerText {
+  color: white;
 }

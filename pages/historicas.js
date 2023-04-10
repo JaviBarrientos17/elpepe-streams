@@ -36,7 +36,7 @@ export default function RepeticionesComponent() {
   return (
     <>
       <Head>
-        <title>ElPepe Streams | Históricas</title>
+        <title>El Pepe Streams | Históricas</title>
       </Head>
       <div className="container mx-auto">
         <h1 className="text-center text-3xl font-bold mb-8">Carreras Históricas</h1>

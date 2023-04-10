@@ -10,9 +10,6 @@ export default function NavbarComponent() {
             className="navbarImg h-8 mr-3"
             alt="ElPepe Streams Logo"
           />
-          {/* <span className="navbarSpan self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            ElPepe Streams
-          </span> */}
         </a>
         <button
           data-collapse-toggle="navbar-default"

@@ -5,12 +5,13 @@ export default function MyComponent() {
   return (
     <>
       <Head>
-        <title>ElPepe Streams | Repeticiones</title>
+        <title>El Pepe Streams | Repeticiones</title>
       </Head>
       <div className="flex flex-col justify-center items-center min-h-screen">
         <div className="max-w-md w-full mx-auto px-4">
           <h1 className="text-4xl font-bold text-center mb-8">Repeticiones</h1>
           <div className="grid grid-cols-2 gap-4 md:grid-cols-5">
+            {/* // TODO - MEJORAR IMGS DE LOS BTNS */}
             <a
               className="bg-indigo-500 text-white font-bold py-4 rounded-md flex items-center justify-center space-x-2"
               href="/f1"
