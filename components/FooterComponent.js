@@ -2,8 +2,8 @@ import React from "react";
 
 export default function FooterComponent() {
   return (
-    <footer class="min-h-screen w-full max-w-screen-xl mx-auto py-8 px-4 sm:px-6 lg:py-12 lg:px-8 flex flex-col items-center lg:items-start">
-      <div class="footer max-w-screen-xl mx-auto py-8 px-4 sm:px-6 lg:py-12 lg:px-8 flex flex-col items-center lg:items-start">
+    <footer className="min-h-screen w-full max-w-screen-xl mx-auto py-8 px-4 sm:px-6 lg:py-12 lg:px-8 flex flex-col items-center lg:items-start">
+      <div className="footer max-w-screen-xl mx-auto py-8 px-4 sm:px-6 lg:py-12 lg:px-8 flex flex-col items-center lg:items-start">
         <div className="footer xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="footer xl:col-span-1 flex justify-center xl:justify-start mb-4">
             <img
