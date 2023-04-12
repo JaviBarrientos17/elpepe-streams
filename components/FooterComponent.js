@@ -29,7 +29,7 @@ export default function FooterComponent() {
                 </h4>
                 <div class="footer flex flex-col justify-center md:flex-row md:justify-end md:items-center mt-8 mb-4">
                   <div class="md:ml-auto">
-                    <div class="flex items-center justify-center md:justify-start">
+                    <div class="footer flex items-center justify-center md:justify-start">
                       <a
                         href="https://discord.com/channels/@me/977975337424150610"
                         class="text-white hover:text-gray-900 dark:hover:text-white text-center"
