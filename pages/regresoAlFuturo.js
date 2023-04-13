@@ -18,8 +18,8 @@ export default function RepeticionesComponent() {
     {
       id: 3,
       title: "Regreso al Futuro III",
-      videoUrl: "",
-      poster: "",
+      videoUrl: "https://bit.ly/43xLYuo",
+      poster: "https://bit.ly/3KYSu6r",
     },
   ]);
 
