@@ -18,9 +18,9 @@ export default function Peliculas() {
         <h1 className="text-4xl font-bold text-white text-center sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl mt-8 sm:mt-16">
           Películas
         </h1>
-        <div class="flex justify-center items-center sm:flex-col sm:items-center my-4">
+        <div className="flex justify-center items-center sm:flex-col sm:items-center my-4">
           <a
-            className="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-md inline-flex items-center"
+            className="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-md inline-flex items-center mr-4"
             href="/sagas"
           >
             Ver sagas
@@ -30,7 +30,9 @@ export default function Peliculas() {
           {peliculas &&
             peliculas.map((pelicula, index) => (
               <div key={index} className="p-4 shadow rounded-lg">
-                <h2 className="title text-lg font-bold my-4">{pelicula.title}</h2>
+                <h2 className="title text-lg font-bold my-4">
+                  {pelicula.title}
+                </h2>
                 <div className="aspect-w-16 aspect-h-9">
                   <video
                     width="320"
@@ -42,7 +44,17 @@ export default function Peliculas() {
                     <source src={pelicula.videoUrl} type="video/mp4" />
                   </video>
                 </div>
-                <p className="description">{pelicula.description}</p>
+                <p className="description my-1">{pelicula.description}</p>
+                <div className="flex justify-center items-center sm:flex-col sm:items-center my-4">
+                  <a
+                    className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md inline-flex items-center"
+                    download={""}
+                  >
+                    Descargar
+                  </a>
+
+                  {/* // TODO AÑADIR LINKS DE DESCARGA AL JSON */}
+                </div>
               </div>
             ))}
         </div>
