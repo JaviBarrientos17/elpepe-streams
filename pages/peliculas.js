@@ -1,17 +1,12 @@
 import { useState, useEffect } from "react";
 import Head from "next/head";
-import { fetchData } from "../data";
+const peliculasData = require("../data/Películas.json");
 
 export default function Peliculas() {
   const [peliculas, setPeliculas] = useState([]);
 
   useEffect(() => {
-    async function loadData() {
-      const data = await fetchData();
-      setPeliculas(data);
-    }
-
-    loadData();
+    setPeliculas(peliculasData);
   }, []);
 
   return (
@@ -20,12 +15,22 @@ export default function Peliculas() {
         <title>El Pepe Streams | Películas</title>
       </Head>
       <div className="container mx-auto">
-        <h1 className="text-center text-3xl font-bold mb-8">Películas</h1>
+        <h1 className="text-4xl font-bold text-white text-center sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl mt-8 sm:mt-16">
+          Películas
+        </h1>
+        <div class="flex justify-center items-center sm:flex-col sm:items-center my-4">
+          <a
+            className="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-md inline-flex items-center"
+            href="/sagas"
+          >
+            Ver sagas
+          </a>
+        </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
           {peliculas &&
             peliculas.map((pelicula, index) => (
               <div key={index} className="p-4 shadow rounded-lg">
-                <h2 className="title text-lg font-bold">{pelicula.title}</h2>
+                <h2 className="title text-lg font-bold my-4">{pelicula.title}</h2>
                 <div className="aspect-w-16 aspect-h-9">
                   <video
                     width="320"
@@ -41,11 +46,9 @@ export default function Peliculas() {
               </div>
             ))}
         </div>
-        <a
-          className="bg-indigo-500 text-white font-bold py-4 rounded-md flex items-center justify-center space-x-2"
-          href="/sagas"
-        />
       </div>
     </>
   );
 }
+
+// TODO IMPLEMENTAR ESTE CÓDIGO EN REPETICIONES, HISTORICAS Y EN SAGAS
