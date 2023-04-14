@@ -9,11 +9,11 @@ export default function HomeComponent() {
         <title>El Pepe Streams</title>
       </Head>
 
-      <div class="flex min-h-screen w-full justify-center items-center">
+      <div className="flex min-h-screen w-full justify-center items-center md:mt-10">
         <img
           src="https://drive.google.com/uc?export=view&id=146ksotIL9W2u_MmIfS_fyF8LvVgYTXuU"
           alt="Homepage img"
-          class="h-full max-w-full object-contain object-center"
+          className="w-4/5 h-4/5 object-contain object-center"
         />
       </div>
 
