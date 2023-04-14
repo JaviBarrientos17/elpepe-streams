@@ -46,7 +46,11 @@ export default function Peliculas() {
                 </div>
                 <p className="description my-1">{pelicula.description}</p>
                 <div className="flex justify-center items-center sm:flex-col sm:items-center my-4">
-                  <a href={pelicula.downloadUrl}>
+                  <a
+                    href={pelicula.downloadUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md inline-flex items-center">
                       Descargar
                     </button>
