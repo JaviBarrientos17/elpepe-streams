@@ -20,6 +20,8 @@ export default function HomeComponent() {
         </p>
       </div>
 
+      {/* // TODO EN EL QUE CASO DE QUE SE VEA DESDE UN MÓVIL, MIRAR DE SUSTITUIR EL GIF POR UNA IMG ESTÁTICA */}
+
       <div className="flex min-h-screen w-full justify-center items-center md:mt-10">
         <img
           src="https://drive.google.com/uc?export=view&id=146ksotIL9W2u_MmIfS_fyF8LvVgYTXuU"
