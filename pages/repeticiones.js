@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import FooterComponent from "../components/FooterComponent";
 
 export default function RepeticionesComponent() {
   return (
@@ -9,9 +10,10 @@ export default function RepeticionesComponent() {
       </Head>
       <div className="flex flex-col justify-center items-center min-h-screen">
         <div className="max-w-md w-full mx-auto px-4">
-          <h1 className="text-4xl font-bold text-center mb-8">Repeticiones</h1>
+          <h1 className="text-4xl font-bold text-white text-center sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl mt-8 mb-8 sm:mt-16 sm:mb-8">
+            Repeticiones
+          </h1>
           <div className="grid grid-cols-2 gap-4 md:grid-cols-5">
-            {/* // TODO - MEJORAR IMGS DE LOS BTNS */}
             <a
               className="bg-indigo-500 text-white font-bold py-4 rounded-md flex items-center justify-center space-x-2"
               href="/f1"
@@ -31,7 +33,7 @@ export default function RepeticionesComponent() {
             >
               <button>
                 <img
-                  src="https://i.imgur.com/aHu0KdQ.png"
+                  src="https://i.imgur.com/LzxWkGY.png"
                   width={100}
                   height={100}
                   alt="F2 Logo"
@@ -44,7 +46,7 @@ export default function RepeticionesComponent() {
             >
               <button>
                 <img
-                  src="https://i.imgur.com/hJR4huf.png"
+                  src="https://i.imgur.com/scJegNx.png"
                   width={100}
                   height={100}
                   alt="F3 Logo"
@@ -95,6 +97,7 @@ export default function RepeticionesComponent() {
           </div>
         </div>
       </div>
+      <FooterComponent />
     </>
   );
 }
