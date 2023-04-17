@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Head from "next/head";
+import FooterComponent from "../components/FooterComponent";
 const historicasData = require("../data/Históricas.json");
 
 export default function Históricas() {
@@ -60,6 +61,7 @@ export default function Históricas() {
             ))}
         </div>
       </div>
+      <FooterComponent />
     </>
   );
 }

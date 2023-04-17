@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Head from "next/head";
+import FooterComponent from "../components/FooterComponent";
 const peliculasData = require("../data/Películas.json");
 
 export default function Peliculas() {
@@ -62,6 +63,7 @@ export default function Peliculas() {
             ))}
         </div>
       </div>
+      <FooterComponent />
     </>
   );
 }
