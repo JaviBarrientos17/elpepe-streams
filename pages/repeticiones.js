@@ -18,7 +18,7 @@ export default function RepeticionesComponent() {
               className="bg-indigo-500 text-white font-bold py-4 rounded-md flex items-center justify-center space-x-2"
               href="/f1"
             >
-              <button className="bg-indigo-500 text-white font-bold py-4 rounded-md flex items-center justify-center space-x-2">
+              <button>
                 <img
                   src="https://i.imgur.com/WH3itbC.jpg"
                   width={100}
