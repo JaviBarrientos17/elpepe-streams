@@ -84,13 +84,12 @@ export default function RepeticionesComponent() {
               href="/futbol"
             >
               <button>
-                {/* <img
-                  src="https://i.imgur.com/eIBqism.png"
+                <img
+                  src="https://bit.ly/3MMNUtc"
                   width={100}
                   height={100}
                   alt="Futbol"
-                /> */}
-                Futbol
+                />
               </button>
             </a>
           </div>
