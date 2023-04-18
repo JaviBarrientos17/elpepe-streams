@@ -68,17 +68,16 @@ export default function RepeticionesComponent() {
             </a>
             <a
               className="bg-indigo-500 text-white font-bold py-4 rounded-md flex items-center justify-center space-x-2"
-              href="/historicas"
+              href="/varios"
             >
-              {/* <button>
+              <button>
                 <img
-                  src="https://i.imgur.com/eIBqism.png"
+                  src="https://bit.ly/3UO7EPc"
                   width={100}
                   height={100}
                   alt="Motor (varios)"
                 />
-              </button> */}
-              Motor (varios)
+              </button>
             </a>
             <a
               className="bg-indigo-500 text-white font-bold py-4 rounded-md flex items-center justify-center space-x-2"
