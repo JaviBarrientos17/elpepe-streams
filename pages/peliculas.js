@@ -45,7 +45,7 @@ export default function Peliculas() {
                     <source src={pelicula.videoUrl} type="video/mp4" />
                   </video>
                 </div>
-                <p className="description my-1 break-words overflow-hidden text-gray-700 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl leading-6 sm:leading-7 md:leading-8 lg:leading-9 xl:leading-10 line-clamp-2 sm:line-clamp-3 md:line-clamp-4">
+                <p className="description mt-2 mb-2 text-gray-700 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl leading-6 sm:leading-7 md:leading-8 lg:leading-9 xl:leading-10 whitespace-normal">
                   {pelicula.description}
                 </p>
                 <div className="flex justify-center items-center sm:flex-col sm:items-center my-4">
