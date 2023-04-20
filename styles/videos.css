@@ -7,9 +7,9 @@
   text-align: center;
   font-weight: bold;
   color: white;
-  max-height: 6em; /* Mostrar solo 3 líneas de texto */
-  overflow: hidden; /* Ocultar texto adicional */
-  text-overflow: ellipsis; /* Mostrar puntos suspensivos al final si se recorta el texto */
+  max-height: 6em;
+  overflow: hidden;
+  text-overflow: ellipsis;
   word-wrap: break-word;
 }
 
