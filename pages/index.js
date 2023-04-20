@@ -10,25 +10,26 @@ export default function HomeComponent() {
       </Head>
 
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen">
-        <h1 className="text-4xl font-bold text-white text-center sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl mt-8 sm:mt-16">
-          ElPepe Streams
-        </h1>
-        <p className="mt-8 mb-8 text-lg text-white text-center sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-          Bienvenidos a ElPepe Streams, tu fuente de entretenimiento en línea.
-          Aquí encontrarás una amplia selección de películas y series para ver
-          en cualquier momento.
-        </p>
+        <div className="flex min-h-screen w-full justify-center items-center">
+          <img
+            src="https://drive.google.com/uc?export=view&id=146ksotIL9W2u_MmIfS_fyF8LvVgYTXuU"
+            alt="Homepage img"
+            className="w-4/5 h-4/5 object-contain object-center"
+          />
+        </div>
+
+        <div className="grid place-items-center">
+          <p className="text-center mt-8 mb-4 text-lg text-white sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+            Bienvenidos a ElPepe Streams, tu fuente de entretenimiento en línea.
+          </p>
+          <p className="text-center my-4 text-lg text-white sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+            Aquí encontrarás una amplia selección de películas y series para ver
+            en cualquier momento.
+          </p>
+        </div>
       </div>
 
       {/* // TODO EN EL QUE CASO DE QUE SE VEA DESDE UN MÓVIL, MIRAR DE SUSTITUIR EL GIF POR UNA IMG ESTÁTICA */}
-
-      <div className="flex min-h-screen w-full justify-center items-center md:mt-10">
-        <img
-          src="https://drive.google.com/uc?export=view&id=146ksotIL9W2u_MmIfS_fyF8LvVgYTXuU"
-          alt="Homepage img"
-          className="w-4/5 h-4/5 object-contain object-center"
-        />
-      </div>
 
       <FooterComponent />
     </Fragment>

@@ -5,19 +5,10 @@ export default function NavbarComponent() {
     <nav className="navbar border-gray-200 dark:bg-gray-900">
       <div className="navbarContent max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="navbarSpan flex items-center">
-          {/* // TODO PRIMERA VERSIÓN DEL LOGO EN EL NAVBAR */}
-          {/* <img
+          <img
             src="https://i.imgur.com/Oz0IbSQ.png"
             className="navbarImg h-8 mr-3"
             alt="ElPepe Streams Logo"
-          /> */}
-
-          {/*  // TODO TRATAR DE HACER QUE SE VEA MEJOR EL GIF EN EL NAVBAR */}
-          {/*  // TODO O SI NO, GENERAR OTRO GIF CON LA MISMA RESOLUCIÓN QUE LA PRIMERA VERSIÓN DEL LOGO */}
-          <img
-            src="https://drive.google.com/uc?export=view&id=146ksotIL9W2u_MmIfS_fyF8LvVgYTXuU"
-            alt="ElPepe Streams Logo"
-            className="navbarImg h-12 md:h-16 lg:h-20 xl:h-24 mr-3 object-contain"
           />
         </a>
         <button
