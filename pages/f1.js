@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import FooterComponent from "../components/FooterComponent";
 import f1Data from "../data/F1.json";
 
@@ -20,10 +21,12 @@ export default function F1() {
                   <h2 className="title text-lg font-bold my-4">
                     {f1Mapped.title}
                   </h2>
-                  <img
+                  <Image
                     src={f1Mapped.img}
                     alt={f1Mapped.title}
-                    className="object-contain w-full"
+                    width={800} /* especificar el ancho de la imagen */
+                    height={600} /* especificar la altura de la imagen */
+                    className="object-contain"
                   />
                   <p className="description mt-2 mb-2 text-gray-700 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl leading-6 sm:leading-7 md:leading-8 lg:leading-9 xl:leading-10 whitespace-normal">
                     {f1Mapped.description}
