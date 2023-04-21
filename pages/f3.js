@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import FooterComponent from "../components/FooterComponent";
 import f3Data from "../data/F3.json";
 
@@ -20,10 +21,12 @@ export default function F3() {
                   <h2 className="title text-lg font-bold my-4">
                     {f3Mapped.title}
                   </h2>
-                  <img
+                  <Image
                     src={f3Mapped.img}
                     alt={f3Mapped.title}
-                    className="object-contain w-full"
+                    width={800}
+                    height={600}
+                    className="object-contain"
                   />
                   <p className="description mt-2 mb-2 text-gray-700 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl leading-6 sm:leading-7 md:leading-8 lg:leading-9 xl:leading-10 whitespace-normal">
                     {f3Mapped.description}
