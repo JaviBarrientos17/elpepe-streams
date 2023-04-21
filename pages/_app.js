@@ -5,6 +5,7 @@ import "../styles/navbar.css";
 import "../styles/videos.css";
 import "../styles/sagas.css";
 import "../styles/repeticiones.css";
+import "../styles/formulaStyles.css";
 
 const Navbar = dynamic(() => import("../components/NavbarComponent"));
 const HomeComponent = dynamic(() => import("../components/HomeComponent"));

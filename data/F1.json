@@ -3,28 +3,42 @@
     "key": 1,
     "title": "F1 2023",
     "description": "",
-    "img": "https://bit.ly/43SRDM2",
+    "img": "https://bit.ly/3An8712",
     "downloadUrl": ""
   },
   {
     "key": 2,
     "title": "F1 2022",
     "description": "",
-    "img": "https://bit.ly/41EtcQc",
+    "img": "https://bit.ly/3UWMIFz",
     "downloadUrl": ""
   },
   {
     "key": 3,
     "title": "F1 2021",
     "description": "",
-    "img": "https://bit.ly/3AbWESd",
+    "img": "https://bit.ly/3LiZ1Zy",
     "downloadUrl": ""
   },
   {
     "key": 4,
     "title": "F1 2020",
     "description": "",
-    "img": "https://bit.ly/3UQZGVe",
+    "img": "https://bit.ly/41MXIaN",
+    "downloadUrl": ""
+  },
+  {
+    "key": 5,
+    "title": "F1 2019",
+    "description": "",
+    "img": "https://bit.ly/3UUyULK",
+    "downloadUrl": ""
+  },
+  {
+    "key": 4,
+    "title": "F1 2018",
+    "description": "",
+    "img": "https://bit.ly/3mUfk5Q",
     "downloadUrl": ""
   }
 ]
