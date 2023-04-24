@@ -22,8 +22,17 @@ export default function F1() {
                     {f1Mapped.title}
                   </h2>
                   <Image
-                    src={f1Mapped.img}
                     alt={f1Mapped.title}
+                    src={
+                      window.innerWidth >= 768
+                        ? f1Mapped.img
+                        : f1Mapped.imgWebp
+                    }
+                    fallback={
+                      window.innerWidth >= 768
+                        ? f1Mapped.imgAvif
+                        : f1Mapped.imgWebp
+                    }
                     width={800}
                     height={600}
                     className="object-contain"
