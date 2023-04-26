@@ -22,8 +22,17 @@ export default function F2() {
                     {f2Mapped.title}
                   </h2>
                   <Image
-                    src={f2Mapped.img}
                     alt={f2Mapped.title}
+                    src={
+                      window.innerWidth >= 768
+                        ? f2Mapped.img
+                        : f2Mapped.imgWebp
+                    }
+                    fallback={
+                      window.innerWidth >= 768
+                        ? f2Mapped.imgAvif
+                        : f2Mapped.imgWebp
+                    }
                     width={800}
                     height={600}
                     className="object-contain"
