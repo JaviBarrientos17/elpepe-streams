@@ -22,13 +22,21 @@ export default function F3() {
                     {f3Mapped.title}
                   </h2>
                   <Image
-                    src={f3Mapped.img}
                     alt={f3Mapped.title}
+                    src={
+                      window.innerWidth >= 768
+                        ? f3Mapped.img
+                        : f3Mapped.imgWebp
+                    }
+                    fallback={
+                      window.innerWidth >= 768
+                        ? f3Mapped.imgAvif
+                        : f3Mapped.imgWebp
+                    }
                     width={800}
                     height={600}
                     className="object-contain"
                   />
-                  {/* // TODO REDUCIR CAMBIAR DE FORMATO LAS IMGS PARA MEJORAR LA CARGA DE LA WEB */}
                   <p className="description mt-2 mb-2 text-gray-700 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl leading-6 sm:leading-7 md:leading-8 lg:leading-9 xl:leading-10 whitespace-normal">
                     {f3Mapped.description}
                   </p>
