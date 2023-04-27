@@ -15,7 +15,7 @@ export default function Sagas() {
               <Link href={`/sagas/${saga.id}`} passHref legacyBehavior>
                 <a>
                   <Image
-                    alt={saga.title}
+                    alt={saga.saga}
                     src={saga.img}
                     width={800}
                     height={600}
@@ -24,7 +24,7 @@ export default function Sagas() {
                 </a>
               </Link>
               <div className="p-4">
-                <h2 className="text-xl font-bold">{saga.title}</h2>
+                <h2 className="text-xl font-bold">{saga.sagaTitle}</h2>
                 <p className="text-gray-700">{saga.description}</p>
               </div>
             </div>
