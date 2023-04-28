@@ -24,7 +24,7 @@ module.exports = {
     ];
   },
 
-  async defaultPathMap() {
+  async exportPathMap() {
     const paths = {
       "/sagas/": { page: "/sagas" },
     };
@@ -54,4 +54,3 @@ module.exports = {
     domains: ["bit.ly"],
   },
 };
-
