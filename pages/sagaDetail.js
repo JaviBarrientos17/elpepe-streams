@@ -1,6 +1,10 @@
 import { useState } from "react";
+import { useRouter } from "next/router";
+import SagasData from "../data/Sagas.json";
 
-export default function SagaDetail({ saga }) {
+export default function SagaDetail() {
+  const router = useRouter();
+  const { id } = router.query;
   const [season, setSeason] = useState("");
   const [showDefaultOption, setShowDefaultOption] = useState(true);
 
@@ -9,7 +13,9 @@ export default function SagaDetail({ saga }) {
     setShowDefaultOption(false);
   };
 
-  return (
+  const saga = SagasData.find((saga) => saga.id === parseInt(id));
+
+  return saga ? (
     <div className="container">
       <div className="max-w-screen-xl px-4 sm:px-6 lg:px-8 content">
         <h1 className="title text-2xl sm:text-4xl font-bold my-4">
@@ -60,7 +66,5 @@ export default function SagaDetail({ saga }) {
         </div>
       </div>
     </div>
-  );
+  ) : null;
 }
-
-// TODO MOVER JUEGOS DEL HAMBRE A SERIES REUTILIZANDO EL CÓDIGO DE SAGAS.JS Y DE SAGADETAIL.JS 

@@ -1,22 +1,10 @@
 const sagasData = require("./data/Sagas.json");
 
 module.exports = {
-  async redirects() {
-    return [
-      {
-        source: "/sagas",
-        destination: "/sagas/",
-        permanent: true,
-      },
-    ];
-  },
+  basePath: "",
 
   async rewrites() {
     return [
-      {
-        source: "/:locale/sagas",
-        destination: "/sagas",
-      },
       {
         source: "/:locale/sagas/:id",
         destination: "/sagas/[id]",
@@ -26,19 +14,8 @@ module.exports = {
 
   async exportPathMap() {
     const paths = {
-      "/sagas/": { page: "/sagas" },
+      "/sagas": { page: "/sagas" },
     };
-
-    for (const locale of ["en", "es"]) {
-      paths[`/${locale}/sagas`] = {
-        page: "/sagas",
-        query: { __nextLocale: locale },
-      };
-      paths[`/${locale}/sagas/:id`] = {
-        page: "/sagas/[id]",
-        query: { __nextLocale: locale },
-      };
-    }
 
     for (const saga of sagasData) {
       paths[`/sagas/${saga.id}`] = {

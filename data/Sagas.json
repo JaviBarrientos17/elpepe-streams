@@ -14,10 +14,13 @@
   {
     "id": 2,
     "sagaTitle": "Regreso al Futuro",
-    "title": "",
-    "synopsis": "",
+    "title": "Regreso al Futuro",
+    "synopsis": "Sinopsis: Marty McFly es un adolescente amigo del inventor Doc Brown. Una noche Doc crea una máquina del tiempo con un coche deportivo DeLorean, y Marty viaja accidentalmente en el tiempo desde 1985 hasta 1955. Una vez allí, conoce a sus futuros padres cuando todavía eran jóvenes y tiene que hacer que se enamoren para poder volver al futuro. Además, tendrá que encontrar al Doc Brown del pasado para que le ayude a regresar a casa en el futuro.",
     "img": "https://bit.ly/3A5cKgt",
-    "details": "",
-    "downloadUrl": ""
+    "details": "Dirigida por Robert Zemeckis",
+    "downloadUrls": {
+      "T1": "https://drive.google.com/file/d/1RE1DWlYsnOoG_EO-PJZw6NkQ5U5St6U5/view?usp=sharing",
+      "T2": "https://drive.google.com/file/d/1MnOLJ8zdk-EBvCmkTlHsTGWpzoBJNO-B/view?usp=sharing"
+    }
   }
 ]
