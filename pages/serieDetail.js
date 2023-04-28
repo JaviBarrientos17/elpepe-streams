@@ -27,19 +27,27 @@ export default function SerieDetail() {
           className="w-full object-contain"
         />
         <div className="p-4">
-          <p className="text-gray-700">{serie.synopsis}</p>
-          <p className="text-gray-700">{serie.details}</p>
+          <p className="text-white text-justify">{serie.synopsis}</p>
+          <p className="text-white text-justify">{serie.details}</p>
           {serie.downloadUrls ? (
-            <div className="mt-4 flex items-center">
-              <label htmlFor="season" className="mr-2">
-                Temporada:
+            <div className="mt-4 items-center">
+              <label
+                htmlFor="season"
+                className="mr-2 text-white"
+                style={{ marginRight: "10px" }}
+              >
+                Temporadas:
               </label>
+
+              {/* // TODO - ACABAR DE COPIAR LOS ESTILOS DE SAGADETAIL A SERIEDETAIL */}
+
               <select
                 name="season"
                 id="season"
                 value={season}
                 onChange={handleSelectChange}
-                className="border border-gray-400 rounded-md p-1 mx-2"
+                className="border border-gray-400 rounded-md p-1 mx-auto"
+                style={{ marginRight: "10px" }}
               >
                 {showDefaultOption && (
                   <option value="" disabled className="text-black">

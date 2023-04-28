@@ -54,7 +54,7 @@ export default function SagaDetail() {
                   </option>
                 )}
                 {Object.keys(saga.downloadUrls).map((key) => (
-                  <option key={key} value={key}>
+                  <option key={key} value={key} className="text-black">
                     {key}
                   </option>
                 ))}
