@@ -1,40 +1,51 @@
 const sagasData = require("./data/Sagas.json");
 
 module.exports = {
-  async defaultPathMap(defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
+  async redirects() {
+    return [
+      {
+        source: "/sagas",
+        destination: "/sagas/",
+        permanent: true,
+      },
+    ];
+  },
+
+  async rewrites() {
+    return [
+      {
+        source: "/:locale/sagas",
+        destination: "/sagas",
+      },
+      {
+        source: "/:locale/sagas/:id",
+        destination: "/sagas/[id]",
+      },
+    ];
+  },
+
+  async defaultPathMap() {
     const paths = {
-      // Manejar la página de sagas sin parámetros de consulta
       "/sagas/": { page: "/sagas" },
-
-      // Manejar las páginas de sagas con el parámetro de consulta __nextLocale
-      "/sagas?__nextLocale=en": {
-        page: "/sagas",
-        query: { __nextLocale: "en" },
-      },
-      "/sagas?__nextLocale=es": {
-        page: "/sagas",
-        query: { __nextLocale: "es" },
-      },
-
-      // Manejar las páginas de sagas con el parámetro de consulta __nextDefaultLocale
-      "/sagas?__nextLocale=en": {
-        page: "/sagas",
-        query: { __nextLocale: "en" },
-      },
-      "/sagas?__nextLocale=es": {
-        page: "/sagas",
-        query: { __nextLocale: "es" },
-      },
-
-      // Manejar las páginas de sagas con un parámetro de ruta
-      ...sagasData.reduce((acc, saga) => {
-        acc[`/sagas/${saga.id}`] = {
-          page: "/sagas/[id]",
-          query: { id: saga.id },
-        };
-        return acc;
-      }, {}),
     };
+
+    for (const locale of ["en", "es"]) {
+      paths[`/${locale}/sagas`] = {
+        page: "/sagas",
+        query: { __nextLocale: locale },
+      };
+      paths[`/${locale}/sagas/:id`] = {
+        page: "/sagas/[id]",
+        query: { __nextLocale: locale },
+      };
+    }
+
+    for (const saga of sagasData) {
+      paths[`/sagas/${saga.id}`] = {
+        page: "/sagas/[id]",
+        query: { id: saga.id },
+      };
+    }
 
     return paths;
   },
