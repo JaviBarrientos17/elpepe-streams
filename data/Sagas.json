@@ -15,12 +15,21 @@
     "id": 2,
     "sagaTitle": "Fast & Furious",
     "title": "Fast & Furious",
-    "synopsis": "",
-    "img": "",
-    "details": "",
+    "synopsis": "Fast & Furious es una saga de películas de acción centradas en carreras de autos y robos de alta velocidad protagonizada por Dominic Toretto (Vin Diesel) y Brian O'Conner (Paul Walker). La trama sigue a este grupo de personajes a través de misiones peligrosas en todo el mundo, con impresionantes escenas de carreras y persecuciones en autos personalizados. La serie ha sido un gran éxito de taquilla y ha generado una gran cantidad de seguidores en todo el mundo.",
+    "img": "https://bit.ly/3Nfw56i",
+    "details": "Colección de películas de Fast & Furious",
     "downloadUrls": {
-      "T1": "",
-      "T2": ""
+      "The Fast and The Furious: A todo gas": "https://bit.ly/444yE13",
+      "2 Fast 2 Furious: A todo gas 2": "https://bit.ly/3LCfSXn",
+      "A todo gas: Tokyo Race": "https://bit.ly/40KRurc",
+      "Fast & Furious: Aún más rápido": "https://bit.ly/3Azvwg0",
+      "Fast & Furious 5": "https://bit.ly/3Ni3xJp",
+      "Fast & Furious 6": "https://bit.ly/41N6lm0",
+      "Fast & Furious 7": "https://bit.ly/40LFfKM",
+      "Fast & Furious: Hobbs & Shaw": "https://bit.ly/41WWpGq",
+      "Fast & Furious 8": "https://bit.ly/41M9W3I",
+      "Fast & Furious 9": "https://bit.ly/3Ni3FbR",
+      "Fast & Furious X": ""
     }
   }
 ]

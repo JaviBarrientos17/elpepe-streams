@@ -24,39 +24,50 @@ export default function SagaDetail() {
         <img
           alt={saga.title}
           src={saga.img}
-          width={800}
-          height={600}
-          className="object-contain"
+          width={400}
+          height={300}
+          className="object-contain mx-auto"
         />
-        <div className="p-4">
-          <p className="text-gray-700">{saga.synopsis}</p>
-          <p className="text-gray-700">{saga.details}</p>
+        <div className="p-4 text-white">
+          <p className="text-white text-justify">{saga.synopsis}</p>
+          <p className="text-white text-justify">{saga.details}</p>
           {saga.downloadUrls ? (
-            <div className="mt-4">
-              <label htmlFor="season" className="mr-2">
-                Temporada:
+            <div className="mt-4 text-center">
+              <label
+                htmlFor="season"
+                className="mr-2"
+                style={{ marginRight: "10px" }}
+              >
+                Peliculas:
               </label>
               <select
                 name="season"
                 id="season"
                 value={season}
                 onChange={handleSelectChange}
-                className="border border-gray-400 rounded-md p-1"
+                className="border border-gray-400 rounded-md p-1 mx-auto"
+                style={{ marginRight: "10px" }}
               >
                 {showDefaultOption && (
-                  <option value="" disabled>
-                    Selecciona temporada
+                  <option value="" disabled className="text-black">
+                    Selecciona pelicula
                   </option>
                 )}
                 {Object.keys(saga.downloadUrls).map((key) => (
                   <option key={key} value={key}>
-                    {`T${key.slice(-1)}`}
+                    {key}
                   </option>
                 ))}
               </select>
               {season ? (
-                <a href={saga.downloadUrls[season]}>
-                  <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md inline-flex items-center ml-2">
+                <a
+                  href={saga.downloadUrls[season]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="my-2"
+                  style={{ marginRight: "5px" }}
+                >
+                  <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md inline-flex items-center">
                     Descargar {season}
                   </button>
                 </a>
