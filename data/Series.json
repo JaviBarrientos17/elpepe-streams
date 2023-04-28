@@ -2,13 +2,58 @@
   {
     "id": 1,
     "sagaTitle": "Los Juegos del Hambre",
-    "title": "Los Juegos del Hambre (Hunger Games) 4k UHD HDR x265 (SPA-CAT-ITA-ENG) (2012)",
+    "title": "Los Juegos del Hambre",
     "synopsis": "Sinopsis: Norte, la nación de Panem obliga a cada uno de sus doce distritos a enviar a un chico y a una chica, adolescentes, para competir en Los juegos del hambre. En parte es un entretenimiento rebuscado y en parte es una táctica de intimidación por parte del gobierno. Los juegos del hambre es un evento televisado nacionalmente en el cual los 'Tributos' tienen que luchar entre ellos hasta quedar solamente un superviviente. Enfrentada con los bien entrenados 'Tributos' quienes llevan toda la vida preparándose para estos juegos, Katniss se ve obligada a recurrir a sus agudos instintos, así como a la tutoría de Haymitch Abernathy, antiguo campeón, y ahora estropeado y  borrachín. Si quiere volver a casa en el Distrito 12, Katniss tendrá que tomar unas decisiones imposibles en La Arena que sopesan la supervivencia frente a la humanidad y la vida frente al amor.",
     "img": "https://bit.ly/3oGX93X",
     "details": "4k UHD HDR x265 (SPA-CAT-ITA-ENG)",
     "downloadUrls": {
-      "T1": "https://drive.google.com/file/d/1RuS8Igac3ZL7NGZPRQJmYelaMKkMnYbE/view?usp=sharing",
-      "T2": ""
+      "Los Juegos del Hambre (Hunger Games)": "https://drive.google.com/file/d/1RuS8Igac3ZL7NGZPRQJmYelaMKkMnYbE/view?usp=sharing",
+      "Los Juegos del Hambre (en Llamas)": "https://drive.google.com/file/d/1kl08-V0hjnu681uLqWPxqPTu9hFuwSZz/view?usp=sharing",
+      "Los juegos del hambre: Sinsajo - Parte 1": "",
+      "Los juegos del hambre: Sinsajo - Parte 2:": ""
+    }
+  },
+  {
+    "id": 2,
+    "sagaTitle": "The Mandalorian",
+    "title": "The Mandalorian",
+    "synopsis": "Sinopsis: The Mandalorian es una serie de Disney+ ambientada en el universo de Star Wars que se desarrolla tras la caída del Imperio y antes de la aparición de la Primera Orden, la serie sigue los pasos de Mando, un cazarrecompensas perteneciente a la legendaria tribu de los Mandalorian, un pistolero solitario que trabaja en los confines de la galaxia, donde no alcanza la autoridad de la Nueva República.",
+    "img": "https://bit.ly/3AEyGiu",
+    "details": "4k",
+    "downloadUrls": {
+      "Temporada 1": "https://bit.ly/3LBBmE2",
+      "Temporada 2": "https://bit.ly/3oSxghV"
+    }
+  },
+  {
+    "id": 3,
+    "sagaTitle": "The Flash",
+    "title": "The Flash",
+    "synopsis": "Sinopsis: Barry Allen perdió a su madre con tan sólo 11 años cuando fue asesinada y su padre cargo con el crimen, siendo condenado injustamente. Años más tarde, Barry se convierte en un excelente investigador gracias a su mente privilegiada, algo que aprovecha para intentar averiguar lo que realmente ocurrió en el asesinato de su madre.",
+    "img": "https://bit.ly/3oTEnqo",
+    "details": "4k",
+    "downloadUrls": {
+      "Temporada 1": "https://bit.ly/3LDNAfh",
+      "Temporada 2": "https://bit.ly/3naEVYg",
+      "Temporada 3": "https://bit.ly/4240icC",
+      "Temporada 4": "https://bit.ly/3oQ2INR",
+      "Temporada 5": "https://bit.ly/41Ot2X3",
+      "Temporada 6": "https://bit.ly/3oPNrwk",
+      "Temporada 7": "https://bit.ly/3ndzXtP"
+    }
+  },
+  {
+    "id": 4,
+    "sagaTitle": "Rick y Morty",
+    "title": "Rick y Morty",
+    "synopsis": "",
+    "img": "https://bit.ly/3oTEnqo",
+    "details": "1080p",
+    "downloadUrls": {
+      "Temporada 1":"https://bit.ly/41EsuD7",
+      "Temporada 2":"https://bit.ly/3naFWj2",
+      "Temporada 3":"https://bit.ly/3HmAC30",
+      "Temporada 4":"https://bit.ly/3LDiu7D"
     }
   }
 ]
