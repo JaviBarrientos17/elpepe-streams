@@ -48,7 +48,7 @@
     "sagaTitle": "Rick y Morty",
     "title": "Rick y Morty",
     "synopsis": "Sinopsis: Rick & Morty es una serie de animación para adultos que sigue las aventuras del científico loco Rick y su nieto Morty a través del tiempo y el espacio. Juntos, exploran mundos alternativos, enfrentan peligrosos villanos y lidian con problemas familiares en su hogar en la Tierra. La serie se caracteriza por su humor negro, violencia y temas existenciales profundos, lo que la convierte en una de las series de animación más populares y aclamadas por la crítica de los últimos años.",
-    "img": "https://bit.ly/449PFa3",
+    "img": "https://bit.ly/3Nuj1u1",
     "details": "Detalles: (1080p)",
     "downloadUrls": {
       "Temporada 1": "https://bit.ly/41EsuD7",
@@ -81,6 +81,17 @@
       "Temporada 7 1080p": "https://bit.ly/44eyuUL",
       "Temporada 8 4K": "https://bit.ly/41RHC00",
       "Temporada 8 1080p": "https://bit.ly/3LD7DKK"
+    }
+  },
+  {
+    "id": 6,
+    "sagaTitle": "La Casa del Dragón",
+    "title": "La Casa del Dragón",
+    "synopsis": "Sinopsis: La serie precuela de Juego de Tronos titulada La Casa del Dragón se centra en la casa Targaryen, sólo que 200 años antes que los hechos narrados en la ficción original.  La familia Targaryen escapó de la destrucción de Valyria para asentarse en Rocadragón, desde donde Aegon I conquistó Poniente. Los Targaryen son una de las grandes familias que gobernaron el Feudo Franco de Valyria. Para ganar sus batallas, criaron y entrenaron dragones para combatir, siempre bajo su escudo de un dragón de tres cabezas de gules que arroja llamas.",
+    "img": "https://bit.ly/3LFS98T",
+    "details": "Detalles: (2160p.HDR.HMAX.WEB-DL.DD51.H.265) [ES-EN]",
+    "downloadUrls": {
+      "Temporada 1": "https://bit.ly/41O3GZz"
     }
   }
 ]
