@@ -9,7 +9,7 @@ export default function Sagas() {
   return (
     <div className="container">
       <div className="max-w-screen-xl px-4 sm:px-6 lg:px-8 content">
-        <h1 className="title text-2xl sm:text-4xl font-bold my-4">
+        <h1 className="title text-2xl sm:text-4xl font-bold my-4 text-white text-center">
           Listado de sagas
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -26,9 +26,9 @@ export default function Sagas() {
                   />
                 </a>
               </Link>
-              <div className="p-4">
-                <h2 className="text-xl font-bold">{saga.title}</h2>
-                <p className="text-gray-700">{saga.description}</p>
+              <div className="p-4 text-white text-justify">
+                <h2 className="text-xl font-bold text-center">{saga.title}</h2>
+                <p>{saga.description}</p>
               </div>
             </div>
           ))}

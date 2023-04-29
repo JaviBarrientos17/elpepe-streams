@@ -28,34 +28,33 @@ export default function SerieDetail() {
         />
         <div className="p-4">
           <p className="text-white text-justify">{serie.synopsis}</p>
-          <p className="text-white text-justify">{serie.details}</p>
+          <p className="text-white text-center sm:text-justify mt-8 mb-8">
+            {serie.details}
+          </p>
           {serie.downloadUrls ? (
-            <div className="mt-4 items-center">
-              <label
-                htmlFor="season"
-                className="mr-2 text-white"
-                style={{ marginRight: "10px" }}
-              >
+            <div className="mt-4 flex flex-col sm:flex-row items-center justify-center sm:justify-start">
+              <label htmlFor="season" className="mr-2 text-white">
                 Temporadas:
               </label>
-
-              {/* // TODO - ACABAR DE COPIAR LOS ESTILOS DE SAGADETAIL A SERIEDETAIL */}
-
               <select
                 name="season"
                 id="season"
                 value={season}
                 onChange={handleSelectChange}
-                className="border border-gray-400 rounded-md p-1 mx-auto"
-                style={{ marginRight: "10px" }}
+                className="bg-white text-black w-full sm:w-auto"
+                style={{
+                  border: "1px solid #ccc",
+                  borderRadius: "0.375rem",
+                  padding: "0.5rem",
+                }}
               >
                 {showDefaultOption && (
-                  <option value="" disabled className="text-black">
+                  <option value="" disabled className="text-white">
                     Selecciona
                   </option>
                 )}
                 {Object.keys(serie.downloadUrls).map((key) => (
-                  <option key={key} value={key} className="text-black">
+                  <option key={key} value={key} className="text-white">
                     {key}
                   </option>
                 ))}

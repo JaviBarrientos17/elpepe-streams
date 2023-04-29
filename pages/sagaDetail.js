@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
-import SagasData from "../data/Sagas.json";
+import SagaData from "../data/Sagas.json";
 
 export default function SagaDetail() {
   const router = useRouter();
@@ -13,60 +13,58 @@ export default function SagaDetail() {
     setShowDefaultOption(false);
   };
 
-  const saga = SagasData.find((saga) => saga.id === parseInt(id));
+  const saga = SagaData.find((saga) => saga.id === parseInt(id));
 
   return saga ? (
-    <div className="container">
-      <div className="max-w-screen-xl px-4 sm:px-6 lg:px-8 content">
+    <div className="container mx-auto">
+      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 content">
         <h1 className="title text-2xl sm:text-4xl font-bold my-4">
           {saga.title}
         </h1>
-        <img
-          alt={saga.title}
-          src={saga.img}
-          width={400}
-          height={300}
-          className="object-contain mx-auto"
-        />
-        <div className="p-4 text-white">
+        <div className="max-w-2xl mx-auto">
+          <img
+            alt={saga.title}
+            src={saga.img}
+            className="w-full object-contain"
+          />
+        </div>
+        <div className="p-4">
           <p className="text-white text-justify">{saga.synopsis}</p>
-          <p className="text-white text-justify">{saga.details}</p>
+          <p className="text-white text-center sm:text-justify mt-8 mb-8">
+            {saga.details}
+          </p>
           {saga.downloadUrls ? (
-            <div className="mt-4 text-center">
-              <label
-                htmlFor="season"
-                className="mr-2"
-                style={{ marginRight: "10px" }}
-              >
-                Peliculas:
+            <div className="mt-4 flex flex-col sm:flex-row items-center justify-center sm:justify-start">
+              <label htmlFor="season" className="mr-2 text-white">
+                Películas:
               </label>
               <select
                 name="season"
                 id="season"
                 value={season}
                 onChange={handleSelectChange}
-                className="border border-gray-400 rounded-md p-1 mx-auto"
-                style={{ marginRight: "10px" }}
+                className="bg-white text-black w-32"
+                style={{
+                  display: "inline-block",
+                  border: "1px solid #ccc",
+                  borderRadius: "0.375rem",
+                  padding: "0.5rem",
+                  minWidth: "120px",
+                }}
               >
                 {showDefaultOption && (
-                  <option value="" disabled className="text-black">
-                    Selecciona pelicula
+                  <option value="" disabled className="text-white">
+                    Selecciona
                   </option>
                 )}
                 {Object.keys(saga.downloadUrls).map((key) => (
-                  <option key={key} value={key} className="text-black">
+                  <option key={key} value={key} className="text-white">
                     {key}
                   </option>
                 ))}
               </select>
               {season ? (
-                <a
-                  href={saga.downloadUrls[season]}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="my-2"
-                  style={{ marginRight: "5px" }}
-                >
+                <a href={saga.downloadUrls[season]} className="ml-2">
                   <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md inline-flex items-center">
                     Descargar {season}
                   </button>
