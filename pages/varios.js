@@ -65,3 +65,5 @@ export default function Varios() {
     </>
   );
 }
+
+// TODO MOVER ESTE CÓDIGO A UN NUEVO ARCHIVO INDY.JS Y HACER SECCIÓN DE VARIOS COMO SAGAS.JS Y SERIES.JS
