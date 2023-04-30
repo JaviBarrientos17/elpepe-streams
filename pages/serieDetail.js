@@ -60,7 +60,12 @@ export default function SerieDetail() {
                 ))}
               </select>
               {season ? (
-                <a href={serie.downloadUrls[season]} className="ml-2">
+                <a
+                  href={serie.downloadUrls[season]}
+                  className="ml-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md inline-flex items-center">
                     Descargar {season}
                   </button>
