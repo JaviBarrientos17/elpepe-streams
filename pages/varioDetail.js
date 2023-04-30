@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
-import VarioData from "../data/varios.json";
+import VarioData from "../data/Varios.json";
 
 export default function VarioDetail() {
   const router = useRouter();
