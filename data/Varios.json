@@ -1,26 +1,15 @@
 [
   {
-    "key": 1,
-    "title": "01 - INDYCAR - St.Pete GP 2023",
-    "videoUrl": "https://bit.ly/43BJThj",
-    "poster": "https://bit.ly/3KHLQA5",
-    "description": "",
-    "downloadUrl": "https://oke.io/n1FSOQB"
-  },
-  {
-    "key": 2,
-    "title": "02 - INDYCAR - PPG 375 (Texas) 2023",
-    "videoUrl": "https://bit.ly/3KOm7Gh",
-    "poster": "https://bit.ly/40ij5j1",
-    "description": "",
-    "downloadUrl": "https://oke.io/yytC"
-  },
-  {
-    "key": 3,
-    "title": "03 - INDYCAR - Long Beach 2023",
-    "videoUrl": "https://bit.ly/3A9krlw",
-    "poster": "https://bit.ly/3MNTYlf",
-    "description": "",
-    "downloadUrl": "https://oke.io/rDsnNmL"
+    "id": 1,
+    "varioTitle": "Indycar 2023",
+    "title": "Indycar 2023",
+    "synopsis": "",
+    "img": "https://bit.ly/3KHLQA5",
+    "details": "Detalles: (1080p)",
+    "downloadUrls": {
+      "01 - INDYCAR - St.Pete GP 2023": "https://oke.io/n1FSOQB",
+      "02 - INDYCAR - PPG 375 (Texas) 2023": "https://oke.io/yytC",
+      "03 - INDYCAR - Long Beach 2023": "https://oke.io/rDsnNmL"
+    }
   }
 ]
