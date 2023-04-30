@@ -1,20 +1,6 @@
 [
   {
     "id": 1,
-    "sagaTitle": "Los Juegos del Hambre",
-    "title": "Los Juegos del Hambre",
-    "synopsis": "Sinopsis: Norte, la nación de Panem obliga a cada uno de sus doce distritos a enviar a un chico y a una chica, adolescentes, para competir en Los juegos del hambre. En parte es un entretenimiento rebuscado y en parte es una táctica de intimidación por parte del gobierno. Los juegos del hambre es un evento televisado nacionalmente en el cual los 'Tributos' tienen que luchar entre ellos hasta quedar solamente un superviviente. Enfrentada con los bien entrenados 'Tributos' quienes llevan toda la vida preparándose para estos juegos, Katniss se ve obligada a recurrir a sus agudos instintos, así como a la tutoría de Haymitch Abernathy, antiguo campeón, y ahora estropeado y  borrachín. Si quiere volver a casa en el Distrito 12, Katniss tendrá que tomar unas decisiones imposibles en La Arena que sopesan la supervivencia frente a la humanidad y la vida frente al amor.",
-    "img": "https://bit.ly/3oGX93X",
-    "details": "Detalles: (4k UHD HDR x265) (SPA-CAT-ITA-ENG)",
-    "downloadUrls": {
-      "Los Juegos del Hambre (Hunger Games)": "https://drive.google.com/file/d/1RuS8Igac3ZL7NGZPRQJmYelaMKkMnYbE/view?usp=sharing",
-      "Los Juegos del Hambre (en Llamas)": "https://drive.google.com/file/d/1kl08-V0hjnu681uLqWPxqPTu9hFuwSZz/view?usp=sharing",
-      "Los juegos del hambre: Sinsajo - Parte 1": "",
-      "Los juegos del hambre: Sinsajo - Parte 2:": ""
-    }
-  },
-  {
-    "id": 2,
     "sagaTitle": "The Mandalorian",
     "title": "The Mandalorian",
     "synopsis": "Sinopsis: The Mandalorian es una serie de Disney+ ambientada en el universo de Star Wars que se desarrolla tras la caída del Imperio y antes de la aparición de la Primera Orden, la serie sigue los pasos de Mando, un cazarrecompensas perteneciente a la legendaria tribu de los Mandalorian, un pistolero solitario que trabaja en los confines de la galaxia, donde no alcanza la autoridad de la Nueva República.",
@@ -27,7 +13,7 @@
     }
   },
   {
-    "id": 3,
+    "id": 2,
     "sagaTitle": "The Flash",
     "title": "The Flash",
     "synopsis": "Sinopsis: Barry Allen perdió a su madre con tan sólo 11 años cuando fue asesinada y su padre cargo con el crimen, siendo condenado injustamente. Años más tarde, Barry se convierte en un excelente investigador gracias a su mente privilegiada, algo que aprovecha para intentar averiguar lo que realmente ocurrió en el asesinato de su madre.",
@@ -44,7 +30,7 @@
     }
   },
   {
-    "id": 4,
+    "id": 3,
     "sagaTitle": "Rick y Morty",
     "title": "Rick y Morty",
     "synopsis": "Sinopsis: Rick & Morty es una serie de animación para adultos que sigue las aventuras del científico loco Rick y su nieto Morty a través del tiempo y el espacio. Juntos, exploran mundos alternativos, enfrentan peligrosos villanos y lidian con problemas familiares en su hogar en la Tierra. La serie se caracteriza por su humor negro, violencia y temas existenciales profundos, lo que la convierte en una de las series de animación más populares y aclamadas por la crítica de los últimos años.",
@@ -58,7 +44,7 @@
     }
   },
   {
-    "id": 5,
+    "id": 4,
     "sagaTitle": "Juego de Tronos",
     "title": "Juego de Tronos",
     "synopsis": "Sinopsis: Juego de Tronos es una serie de televisión de fantasía épica basada en los libros de George R.R. Martin, que sigue la lucha por el poder entre las familias nobles de los Siete Reinos de Westeros. La serie presenta un elenco de personajes complejos y una trama llena de intriga, acción y drama político mientras se acerca el invierno y una amenaza sobrenatural se cierne sobre el reino.",
@@ -84,7 +70,7 @@
     }
   },
   {
-    "id": 6,
+    "id": 5,
     "sagaTitle": "La Casa del Dragón",
     "title": "La Casa del Dragón",
     "synopsis": "Sinopsis: La serie precuela de Juego de Tronos titulada La Casa del Dragón se centra en la casa Targaryen, sólo que 200 años antes que los hechos narrados en la ficción original.  La familia Targaryen escapó de la destrucción de Valyria para asentarse en Rocadragón, desde donde Aegon I conquistó Poniente. Los Targaryen son una de las grandes familias que gobernaron el Feudo Franco de Valyria. Para ganar sus batallas, criaron y entrenaron dragones para combatir, siempre bajo su escudo de un dragón de tres cabezas de gules que arroja llamas.",

@@ -1,23 +1,38 @@
 [
   {
     "id": 1,
-    "sagaTitle": "Regreso al Futuro",
-    "title": "Regreso al Futuro",
-    "synopsis": "Sinopsis: Marty McFly es un adolescente amigo del inventor Doc Brown. Una noche Doc crea una máquina del tiempo con un coche deportivo DeLorean, y Marty viaja accidentalmente en el tiempo desde 1985 hasta 1955. Una vez allí, conoce a sus futuros padres cuando todavía eran jóvenes y tiene que hacer que se enamoren para poder volver al futuro. Además, tendrá que encontrar al Doc Brown del pasado para que le ayude a regresar a casa en el futuro.",
-    "img": "https://bit.ly/3A5cKgt",
-    "details": "Dirigida por Robert Zemeckis",
+    "sagaTitle": "Los Juegos del Hambre",
+    "title": "Los Juegos del Hambre",
+    "synopsis": "Sinopsis: Norte, la nación de Panem obliga a cada uno de sus doce distritos a enviar a un chico y a una chica, adolescentes, para competir en Los juegos del hambre. En parte es un entretenimiento rebuscado y en parte es una táctica de intimidación por parte del gobierno. Los juegos del hambre es un evento televisado nacionalmente en el cual los 'Tributos' tienen que luchar entre ellos hasta quedar solamente un superviviente. Enfrentada con los bien entrenados 'Tributos' quienes llevan toda la vida preparándose para estos juegos, Katniss se ve obligada a recurrir a sus agudos instintos, así como a la tutoría de Haymitch Abernathy, antiguo campeón, y ahora estropeado y  borrachín. Si quiere volver a casa en el Distrito 12, Katniss tendrá que tomar unas decisiones imposibles en La Arena que sopesan la supervivencia frente a la humanidad y la vida frente al amor.",
+    "img": "https://bit.ly/3oGX93X",
+    "details": "Detalles: (4k UHD HDR x265) (SPA-CAT-ITA-ENG)",
     "downloadUrls": {
-      "T1": "https://drive.google.com/file/d/1RE1DWlYsnOoG_EO-PJZw6NkQ5U5St6U5/view?usp=sharing",
-      "T2": "https://drive.google.com/file/d/1MnOLJ8zdk-EBvCmkTlHsTGWpzoBJNO-B/view?usp=sharing"
+      "Los Juegos del Hambre (Hunger Games)": "https://drive.google.com/file/d/1RuS8Igac3ZL7NGZPRQJmYelaMKkMnYbE/view?usp=sharing",
+      "Los Juegos del Hambre (en Llamas)": "https://drive.google.com/file/d/1kl08-V0hjnu681uLqWPxqPTu9hFuwSZz/view?usp=sharing",
+      "Los juegos del hambre: Sinsajo - Parte 1": "",
+      "Los juegos del hambre: Sinsajo - Parte 2:": ""
     }
   },
   {
     "id": 2,
+    "sagaTitle": "Regreso al Futuro",
+    "title": "Regreso al Futuro",
+    "synopsis": "Sinopsis: Marty McFly es un adolescente amigo del inventor Doc Brown. Una noche Doc crea una máquina del tiempo con un coche deportivo DeLorean, y Marty viaja accidentalmente en el tiempo desde 1985 hasta 1955. Una vez allí, conoce a sus futuros padres cuando todavía eran jóvenes y tiene que hacer que se enamoren para poder volver al futuro. Además, tendrá que encontrar al Doc Brown del pasado para que le ayude a regresar a casa en el futuro.",
+    "img": "https://bit.ly/3A5cKgt",
+    "details": "Detalles: (2160p.BluRay.HEVC.TrueHD.7.1.Atmos)",
+    "downloadUrls": {
+      "Regreso al Futuro I (1985)": "https://bit.ly/3HojZDW",
+      "Regreso al Futuro II (1989)": "https://bit.ly/3n7SyaU",
+      "Regreso al Futuro III (1990)": "https://bit.ly/3NsiRTW"
+    }
+  },
+  {
+    "id": 3,
     "sagaTitle": "Fast & Furious",
     "title": "Fast & Furious",
     "synopsis": "Fast & Furious es una saga de películas de acción centradas en carreras de autos y robos de alta velocidad protagonizada por Dominic Toretto (Vin Diesel) y Brian O'Conner (Paul Walker). La trama sigue a este grupo de personajes a través de misiones peligrosas en todo el mundo, con impresionantes escenas de carreras y persecuciones en autos personalizados. La serie ha sido un gran éxito de taquilla y ha generado una gran cantidad de seguidores en todo el mundo.",
     "img": "https://bit.ly/3Nfw56i",
-    "details": "Colección de películas de Fast & Furious",
+    "details": "Detalles: (2160p - 1080p)",
     "downloadUrls": {
       "The Fast and The Furious: A todo gas": "https://bit.ly/444yE13",
       "2 Fast 2 Furious: A todo gas 2": "https://bit.ly/3LCfSXn",
