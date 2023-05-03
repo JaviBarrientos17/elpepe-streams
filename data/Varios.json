@@ -15,16 +15,26 @@
   },
   {
     "id": 2,
-    "varioTitle": "WEC",
-    "title": "WEC",
+    "varioTitle": "WEC 2023",
+    "title": "WEC 2023",
+    "synopsis": "El WEC (World Endurance Championship) es un campeonato de carreras de resistencia organizado por la FIA (Federación Internacional del Automóvil). El campeonato consta de una serie de carreras de larga duración, incluyendo la legendaria carrera de 24 Horas de Le Mans en Francia, que es considerada como el evento más importante en el calendario del WEC. Los equipos compiten con prototipos y GTs en cuatro categorías: LMP1, LMP2, LM GTE Pro y LM GTE Am. El objetivo de los equipos es cubrir la mayor distancia posible en un periodo de tiempo determinado, generalmente de seis u ocho horas, dependiendo del evento. La temporada del WEC generalmente comienza en marzo y termina en noviembre, y se celebra en circuitos de todo el mundo. El WEC es uno de los campeonatos más importantes del automovilismo mundial, junto con la Fórmula 1 y la IndyCar.",
+    "img": "https://bit.ly/42ha3o2",
+    "details": "Detalles: (720p - [ES-EN]) (1080p - [ES-EN])",
+    "downloadUrls": {
+      "01 - FIA WEC - Carrera - 1000 Millas de Sebring 2023 [720p] + Qualy [1080p] [EN]": "https://oke.io/GIl10",
+      "02 - FIA WEC - Carrera - 6 horas de Portimao 2023 [720p-1080p] [ES-EN]": "https://oke.io/0Vbma5JB"
+    }
+  },
+  {
+    "id": 3,
+    "varioTitle": "WEC 2021",
+    "title": "WEC 2021",
     "synopsis": "El WEC (World Endurance Championship) es un campeonato de carreras de resistencia organizado por la FIA (Federación Internacional del Automóvil). El campeonato consta de una serie de carreras de larga duración, incluyendo la legendaria carrera de 24 Horas de Le Mans en Francia, que es considerada como el evento más importante en el calendario del WEC. Los equipos compiten con prototipos y GTs en cuatro categorías: LMP1, LMP2, LM GTE Pro y LM GTE Am. El objetivo de los equipos es cubrir la mayor distancia posible en un periodo de tiempo determinado, generalmente de seis u ocho horas, dependiendo del evento. La temporada del WEC generalmente comienza en marzo y termina en noviembre, y se celebra en circuitos de todo el mundo. El WEC es uno de los campeonatos más importantes del automovilismo mundial, junto con la Fórmula 1 y la IndyCar.",
     "img": "https://bit.ly/3oZkA8L",
     "details": "Detalles: (720p - ES) (1080p - ES) (1080p - MultiAudio REMUX)",
     "downloadUrls": {
       "04 - FIA WEC - Carrera - 24 horas de Le Mans 2021 [720p] [ES]": "https://oke.io/LiTKXFG",
-      "04 - FIA WEC - Carrera - 24 horas de Le Mans 2021 [1080p] [MultiAudio-REMUX]": "https://oke.io/UEjBYY",
-      "01 - FIA WEC - Carrera - 1000 Millas de Sebring 2023 [720p] + Qualy [1080p] [EN]": "https://oke.io/GIl10",
-      "02 - FIA WEC - Carrera - 6 horas de Portimao 2023 [720p-1080p] [ES-EN]": "https://oke.io/0Vbma5JB"
+      "04 - FIA WEC - Carrera - 24 horas de Le Mans 2021 [1080p] [MultiAudio-REMUX]": "https://oke.io/UEjBYY"
     }
   }
 ]
