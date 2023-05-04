@@ -34,7 +34,7 @@ export default function PeliDetail() {
           {peli.downloadUrls ? (
             <div className="mt-4 flex flex-col sm:flex-row items-center justify-center sm:justify-start">
               <label htmlFor="season" className="mr-2 text-white">
-                Carreras:
+                Versiones:
               </label>
               <select
                 name="season"
@@ -71,6 +71,17 @@ export default function PeliDetail() {
                   </button>
                 </a>
               ) : null}
+              {/* <div className="aspect-w-16 aspect-h-9">
+                <video
+                  width="320"
+                  height="240"
+                  className="w-full h-full rounded-lg"
+                  poster={peli.img}
+                  controls
+                >
+                  <source src={peli.videoUrl} type="video/mp4" />
+                </video>
+              </div> */}
             </div>
           ) : null}
         </div>
