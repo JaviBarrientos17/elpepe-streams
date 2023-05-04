@@ -1,4 +1,6 @@
-const csvFilePath = "C:/Users/javie/Downloads/peliculas_subidas.csv";
+// TODO - Comentar una u otra dependiendo el csv que se quiera utilizar
+// const csvFilePath = "C:/Users/javie/Downloads/peliculas_subidas.csv";
+const csvFilePath = "C:/Users/javie/Downloads/series_subidas.csv";
 const papaparse = require("papaparse");
 const fs = require("fs");
 
