@@ -84,7 +84,7 @@
     "id": 6,
     "sagaTitle": "Drive to Survive",
     "title": "Drive to Survive",
-    "synopsis": "Drive to Survive es una serie documental de televisión sobre la Fórmula 1 producida por Netflix. La serie sigue la temporada de carreras de Fórmula 1 del año anterior y se centra en los equipos, los pilotos y los eventos que rodean a cada carrera. Cada episodio se enfoca en una carrera en particular y presenta entrevistas con los pilotos, los dueños de los equipos y otros involucrados en la industria de la Fórmula 1. La serie se enfoca en la rivalidad entre los equipos y las historias detrás de los pilotos y sus carreras. Drive to Survive se estrenó en 2019 y ha sido muy popular entre los fanáticos de la Fórmula 1 y también ha atraído a nuevos espectadores a este deporte.",
+    "synopsis": "Sinopsis: Drive to Survive es una serie documental de televisión sobre la Fórmula 1 producida por Netflix. La serie sigue la temporada de carreras de Fórmula 1 del año anterior y se centra en los equipos, los pilotos y los eventos que rodean a cada carrera. Cada episodio se enfoca en una carrera en particular y presenta entrevistas con los pilotos, los dueños de los equipos y otros involucrados en la industria de la Fórmula 1. La serie se enfoca en la rivalidad entre los equipos y las historias detrás de los pilotos y sus carreras. Drive to Survive se estrenó en 2019 y ha sido muy popular entre los fanáticos de la Fórmula 1 y también ha atraído a nuevos espectadores a este deporte.",
     "img": "https://bit.ly/3AQ6ARH",
     "details": "Detalles: (2160p [ES-EN]) (1080p [ES-EN])",
     "downloadUrls": {
@@ -96,6 +96,44 @@
       "Temporada 3 1080p": "https://oke.io/mTY1S",
       "Temporada 4 1080p": "https://oke.io/ThtzZ",
       "Temporada 5 1080p": "https://oke.io/sNgMiNL"
+    }
+  },
+  {
+    "id": 7,
+    "sagaTitle": "Sex Education",
+    "title": "Sex Education",
+    "synopsis": "Sinopsis: Sex Education gira en torno a Otis, un adolescente calificado como 'bicho raro' en el instituto, a lo que se le une el hecho de ser virgen. Sin embargo, este vive con su madre sexóloga, por lo que siempre ha tenido un amplio conocimiento respecto al tema. Todo cambia cuando sus compañeros descubren a qué se dedica su madre, algo que Otis aprovecha para mostrar todo lo que sabe y mejorar su reputación en la escuela, aliándose con Maeve, una chica inteligente pero con mala fama. Así, ambos montan una clínica donde sus compañeros acuden a pedir consejos sobre sus extraños problemas. Desde la sororidad, el aborto, el vaginismo, la identidad sexual o incluso los enemas son solo algunos de los temas que trata la serie en un ambiente de un instituto británico.",
+    "img": "https://bit.ly/3AUfxt5",
+    "details": "Detalles: (HDTV-720p/HD-1080p [ES])",
+    "downloadUrls": {
+      "Temporada 1 1080p": "https://bit.ly/426wbBH",
+      "Temporada 1 720p": "https://bit.ly/3AWCTya",
+      "Temporada 2 1080p": "https://bit.ly/41l3IHn",
+      "Temporada 2 720p": "https://bit.ly/3p6uJke",
+      "Temporada 3 1080p": "https://bit.ly/3nnEEl7"
+    }
+  },
+  {
+    "id": 8,
+    "sagaTitle": "The Last of Us",
+    "title": "The Last of Us",
+    "synopsis": "Sinopsis: Año 2023, veinte años después del comienzo de una plaga mundial que infectó a población con un hongo mutado transformando a las personas en unas criaturas caníbales, el contrabandista Joel tiene la misión de escoltar a la adolescente Ellie por un mundo postapocalíptico en el nada va a ser fácil para los viajeros. Joel todavía vive atormentado por el recuerdo de su única hija. Ellie es portadora de algo que podría cambiar el destino de la humanidad ¿Conseguirán sobrevivir los dos?",
+    "img": "https://bit.ly/41bhFqV",
+    "details": "Detalles: (1080p.HMAX.WEB-DL.x264.AVC.DDP5.1.Atmos) [ES-EN] / (2160p.HMAX.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos) [ES-EN]",
+    "downloadUrls": {
+      "Temporada 1 4K": "https://bit.ly/3NWBBv5",
+      "Temporada 1 1080p": "https://bit.ly/44uW8fJ"
+    }
+  },
+  {
+    "id": 9,
+    "sagaTitle": "Loki",
+    "title": "Loki",
+    "synopsis": "Sinopsis: Loki es llevado ante la misteriosa organización llamada Autoridad de Variación Temporal después de robar el Cubo Cósmico durante los eventos de Avengers: Endgame (2019) y se le da a elegir enfrentarse a la eliminación de la realidad o ayudar contra una amenaza mayor, por lo cual Loki termina viajando a través del tiempo, alterando la historia humana.",
+    "img": "https://bit.ly/4237GFr",
+    "details": "(2160p) [ES-EN]",
+    "downloadUrls": {
+      "Temporada 1 4K": "https://bit.ly/3AS5CEm"
     }
   }
 ]
