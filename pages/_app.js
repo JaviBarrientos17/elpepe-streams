@@ -11,6 +11,11 @@ const Navbar = dynamic(() => import("../components/NavbarComponent"));
 const HomeComponent = dynamic(() => import("../components/HomeComponent"));
 
 function MyApp({ Component, pageProps }) {
+  // Disable hydration on the first render
+  const [isMounted, setIsMounted] = React.useState(false);
+  React.useEffect(() => setIsMounted(true), []);
+  if (!isMounted) return null;
+
   return (
     <>
       <Head>
@@ -25,7 +30,6 @@ function MyApp({ Component, pageProps }) {
       <Navbar />
       <Component {...pageProps} />
       {/* <HomeComponent /> */}
-
     </>
   );
 }
