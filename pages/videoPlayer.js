@@ -1,30 +1,17 @@
 import React from "react";
-import ReactPlayer from "react-player";
 
 const MyVideoPlayer = () => {
   return (
     <div className="w-full h-full flex items-center justify-center">
-      <div className="w-full h-full max-w-4xl mx-auto">
-        {/* <ReactPlayer
-          url="https://fra1.angelthump.com/hls/MjAyMy0wNS0wNlQxNTo0ODozOC4xMjdaZWxwaW50YXVuYXM=_elpintaunas/index.m3u8"
-          controls
-          playing={false}
-          muted={false}
-          width="100%"
-          height="100%"
-        /> */}
+      <div className="max-w-screen-lg w-full mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-64">
         <iframe
           title="Player"
-          width="100%"
-          height="100%"
-          marginHeight="0"
-          marginWidth="0"
-          frameborder="0"
+          className="w-full h-96 md:h-500px"
+          src="https://player.angelthump.com/?channel=elpintaunas"
+          frameBorder="0"
           allow="autoplay; fullscreen"
           allowTransparency="true"
           allowFullScreen=""
-          //src="https://player.angelthump.com/?channel=elpintaunas"
-          src="https://player.angelthump.com/?channel=psycologicrj"
           scrolling="no"
           seamless=""
         ></iframe>
