@@ -7,7 +7,7 @@ const MyVideoPlayer = () => {
         <iframe
           title="Player"
           className="w-full h-96 md:h-500px"
-          src="https://player.angelthump.com/?channel=pepegustavo3345"
+          src="https://player.angelthump.com/?channel=elpintaunas"
           frameBorder="0"
           allow="autoplay; fullscreen"
           allowTransparency="true"
