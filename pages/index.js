@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import Head from "next/head";
 import FooterComponent from "../components/FooterComponent";
-import MyVideoPlayer from "./videoPlayer";
 
 export default function HomeComponent() {
   return (
@@ -29,17 +28,6 @@ export default function HomeComponent() {
           </p>
         </div>
       </div>
-
-      <p className="text-center my-4 text-lg text-white sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-        DIRECTOS (PROVISIONALMENTE)
-      </p>
-      <div className="w-full h-full flex items-center justify-center">
-        {/* // TODO - MOVER LO DE LOS DIRECTOS A OTRA PARTE Y QUE TENGA UN LINK EN EL NAVBAR  */}
-        <div data-vjs-player className="w-full h-full">
-          <MyVideoPlayer />
-        </div>
-      </div>
-
       <FooterComponent />
     </Fragment>
   );
