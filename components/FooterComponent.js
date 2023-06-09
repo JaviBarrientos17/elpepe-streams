@@ -1,6 +1,8 @@
 import React from "react";
 
 export default function FooterComponent() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="min-h-screen w-full max-w-screen-xl mx-auto py-8 px-4 sm:px-6 lg:py-12 lg:px-8 flex flex-col justify-center items-center lg:items-start">
       <div className="footer max-w-screen-xl mx-auto py-8 px-4 sm:px-6 lg:py-12 lg:px-8 flex flex-col justify-center items-center lg:items-start">
@@ -51,6 +53,11 @@ export default function FooterComponent() {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="mt-8 text-center flex justify-center">
+              <p className="text-white">
+                Creada por JaviBP17 &copy; {currentYear}
+              </p>
             </div>
           </div>
         </div>
