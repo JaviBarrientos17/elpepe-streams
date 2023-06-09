@@ -1,27 +1,495 @@
 [
   {
     "id": 1,
-    "varioTitle": "Top Gun Maverick",
-    "title": "Top Gun Maverick",
-    "synopsis": "Top Gun Maverick es una película estadounidense de acción y drama dirigida por Joseph Kosinski y protagonizada por Tom Cruise. Es una secuela de la película Top Gun de 1986 y sigue la historia del piloto de combate Pete 'Maverick' Mitchell, quien ahora es un instructor de vuelo y tiene que enfrentarse a nuevos desafíos mientras entrena a una nueva generación de pilotos de élite. La película cuenta con un reparto de actores como Jennifer Connelly, Miles Teller, Jon Hamm y Val Kilmer. Fue estrenada en mayo de 2022 y recibió críticas mixtas de la audiencia y los críticos.",
-    "videoUrl": "https://bit.ly/3KsYDWZ",
-    "img": "https://bit.ly/3o93KEh",
-    "details": "Detalles: (IMAX.2160p.BluRay.HEVC.TrueHD.7.1.Atmos) [ES - EN]",
+    "varioTitle": "Interestellar (2014)",
+    "title": "Interestellar (2014)",
+    "synopsis": "Sinopsis: Inspirada en la teoría del experto en relatividad Kip Stepehen Thorne sobre la existencia de los agujeros de gusano, y su función como canal para llevar a cabo los viajes en el tiempo. La historia gira en torno a un grupo de intrépidos exploradores que se adentran por uno de esos agujeros y viajan a través del mismo, encontrándose en otra dimensión. Un mundo desconocido se abre ante ellos y deberán luchar por mantenerse unidos si quieren volver de una pieza.",
+    "videoUrl": "https://bit.ly/3KY0kgq",
+    "img": "https://bit.ly/3OYGeFo",
+    "details": "Detalles: (2160p.BluRay.HEVC.DTS-HD.MA.5.1) [ES-CAT-EN] / (1080p.MicroHD.DTS-HD.MA.5.1) [ES-CAT-EN]",
     "downloadUrls": {
-      "Top Gun Maverick": "https://oke.io/V2MztDl",
-      "Ver online": ""
+      "Ver online (1080p)": "https://bit.ly/3OYtw9w",
+      "Google Drive 4K": "https://bit.ly/3qq7fXY",
+      "Dropbox 4K": "https://oke.io/27C1m"
     }
   },
   {
     "id": 2,
-    "varioTitle": "Interestellar",
-    "title": "Interestellar",
-    "synopsis": "Interstellar es una película de ciencia ficción dirigida por Christopher Nolan y protagonizada por Matthew McConaughey, Anne Hathaway y Jessica Chastain. La trama sigue a un equipo de astronautas que viaja a través de un agujero de gusano en busca de un nuevo hogar para la humanidad, ya que la Tierra está al borde de la extinción debido a una catástrofe ambiental. La película explora temas como el amor, la familia, la supervivencia y la exploración espacial. Interstellar fue lanzada en 2014 y recibió críticas positivas por su trama, efectos visuales y banda sonora.",
-    "videoUrl": "https://bit.ly/3KY0kgq",
-    "img": "https://bit.ly/407Ftf9",
-    "details": "Detalles: (2160p.BluRay.HEVC.DTS-HD.MA.5.1) [ES-CAT-EN]",
+    "varioTitle": "El Bueno, El Feo y El Malo",
+    "title": "El Bueno, El Feo y El Malo",
+    "synopsis": "Sinopsis:Un pistolero a sueldo conocido como Sentencia (Lee van Cleef), llega a un pequeño pueblo a hacer un trabajo. De casualidad se entera sobre la existencia de una caja repleta de dólares, de la que sólo un tal Bill Carlson conoce su paradero. Por otro lado están Rubio (C. Eastwood) y Tuco (Eli Wallach), un solitario y un delincuente que se las apañan para ir estafando de pueblo en pueblo cobrando recompensas por nada, mientras tratan de soportarse el uno al otro como bien pueden. En una de sus 'disputas' se encuentran fortuitamente con un agonizante Bill Carlson, que les revela - a cada uno una parte de la dirección - donde está la caja. Comienza entonces una carrera entre los tres por hacerse con el dinero, en la que nadie puede fiarse de nadie.",
+    "videoUrl": "",
+    "img": "https://bit.ly/45GGI8Y",
+    "details": "Detalles: (SPA-ENG) (4k UHD HDR x265)",
     "downloadUrls": {
-      "Interestellar": "https://oke.io/27C1m"
+      "Google Drive": "https://oke.io/7a5X",
+      "Youtube - (USAR VPN FUERA DE PAIS DE HABLA HISPANA) ": "https://youtu.be/hm7h9eBU4nw",
+      "ok.ru - (USAR VPN EN RUSIA PARA REDUCIR TIEMPOS DE CARGA) ": "https://ok.ru/video/2886335400558"
+    }
+  },
+  {
+    "id": 3,
+    "varioTitle": "Kong vs Godzilla",
+    "title": "Kong vs Godzilla",
+    "synopsis": "Sinopsis: Godzilla y Kong, dos de las fuerzas más poderosas de un planeta habitado por todo tipo de aterradoras criaturas, se enfrentan en un espectacular combate que sacude los cimientos de la humanidad. Kong y sus protectores emprenderán un peligroso viaje para encontrar su verdadero hogar. Con ellos está Jia, una joven huérfana con la que el gigante tiene un vínculo único y poderoso. En el camino se cruzan inesperadamente con el de un Godzilla enfurecido que va causando destrucción a su paso por el mundo. El choque épico entre los dos titanes -provocado por fuerzas invisibles- es solo el comienzo del misterio que se esconde en las profundidades del núcleo de la Tierra.",
+    "videoUrl": "",
+    "img": "https://bit.ly/3qoUuNr",
+    "details": "Detalles: (SPA-Lat-ENG) (4k UHD HDR-Rip)",
+    "downloadUrls": {
+      "Google Drive": "https://bit.ly/3ONWU2f"
+    }
+  },
+  {
+    "id": 4,
+    "varioTitle": "Los Croods: Una nueva era",
+    "title": "Los Croods: Una nueva era",
+    "synopsis": "Sinopsis: Obligados a partir en busca de un nuevo lugar donde vivir, la primera familia prehistórica se aventura a explorar el mundo con el objetivo de localizar un lugar más seguro al que llamar hogar. Pero cuando encuentran un idílico paraíso amurallado que cumple con todas sus necesidades, se encuentran con que ese lugar esconde una sorpresa: hay otra familia que ya vive allí, los Masmejor. Y es que los Masmejor, con su elaborada casa en un árbol, sus asombrosas invenciones y sus enormes huertos, van un par de pasos por delante de los Croods en la escala evolutiva. Y cuando les reciben como sus primeros invitados, no tardan en surgir tensiones entre nuestros queridos cavernícolas y sus nuevos y modernos semejantes. Cuando todo parece perdido, una nueva amenaza embarca a las dos familias en una aventura épica más allá de la seguridad de la muralla, que les obligará a aparcar sus diferencias, aunar fuerzas y luchar por un futuro juntos.",
+    "videoUrl": "",
+    "img": "https://bit.ly/3WNwXlf",
+    "details": "Detalles: (SPA-ENG) (4k UHD HDR-Rip)",
+    "downloadUrls": {
+      "Google Drive": "https://bit.ly/3IQ9l9K",
+      "ok.ru (Usar VPN en Rusia si queréis verlo de FHD para arriba)": "https://ok.ru/video/2960038431342"
+    }
+  },
+  {
+    "id": 5,
+    "varioTitle": "Acero puro (2011)",
+    "title": "Acero puro (2011)",
+    "synopsis": "Sinopsis: En un futuro no muy lejano el boxeo es robótico: en los combates ya no se enfrentan seres humanos, sino robots humanoides, sofisticadas máquinas diseñadas para luchar. Charlie Kenton, un antiguo púgil que casi llegó a alcanzar la gloria, está pasando una mala racha como promotor de combates. Un día, encuentra un viejo robot desechado y, al comprobar que es un gran boxeador, decide entrenarlo.",
+    "videoUrl": "",
+    "img": "https://bit.ly/3N86dZr",
+    "details": "Detalles: (SPA-ENG) 1080p",
+    "downloadUrls": {
+      "Google Drive": "https://bit.ly/3ozuUVu"
+    }
+  },
+  {
+    "id": 6,
+    "varioTitle": "Bad Boys for Life (2020)",
+    "title": "Bad Boys for Life (2020)",
+    "synopsis": "Sinopsis: Los detectives Mike Lowrey (Will Smith) y Marcus Burnett (Martin Lawrence) vuelven a hacer de las suyas. Ahora Lowery pasa por la crisis de mediana edad y Burnett está pensando en retirarse. Eso sí, cuando les llega un nuevo caso que resolver, volverán a trabajar juntos por última vez. Esta vez, ante la nueva amenaza que se les presenta, tendrán que trabajar codo con codo con una moderna unidad policial que tendrá algunas diferencias con los dos detectives de la vieja escuela. ¿Seguirán siendo chicos malos de por vida? Esta tercera entrega de la saga Dos policías rebeldes (Bad Boys) la dirigen Adil El Arbi y Bilall Fallah, responsbales de las películas Gangsta (2018) y Black (2015).",
+    "videoUrl": "",
+    "img": "https://bit.ly/43hQH32",
+    "details": "Detalles: (SPA-ENG) 2160p HDR",
+    "downloadUrls": {
+      "Google Drive": "https://bit.ly/3N8Va28"
+    }
+  },
+  {
+    "id": 7,
+    "varioTitle": "El Toro Salvaje",
+    "title": "El Toro Salvaje",
+    "synopsis": "Sinopsis: Jake La Motta (Robert De Niro) es un joven boxeador que se entrena duramente, ayudado por su hermano Joey, para convertirse en el número uno de los pesos medios. Pronto consigue ver hecho realidad tan ansiado sueño, pero el triunfo y el éxito convierten su vida en una pesadilla. Por un lado, su matrimonio marcha cada vez peor debido a sus salidas nocturnas con otras mujeres; por otro, la mafia le presiona para que amañe combates. En poco tiempo gasta todo el capital del que dispone, para volver nuevamente a pasar todo tipo de penurias.",
+    "videoUrl": "",
+    "img": "https://bit.ly/43aZiV3",
+    "details": "Detalles: 1080p (SPA)",
+    "downloadUrls": {
+      "Google Drive": "https://bit.ly/43AvBMY"
+    }
+  },
+  {
+    "id": 8,
+    "varioTitle": "Casablanca",
+    "title": "Casablanca",
+    "synopsis": "Sinopsis: Años 40. A consecuencia de la Segunda Guerra Mundial, Casablanca era una ciudad a la que llegaban huyendo del nazismo gente de todas partes: llegar era fácil, pero salir era casi imposible, especialmente si el nombre del fugitivo figuraba en las listas de la Gestapo, que presionaba a la autoridades francesas al mando del corrupto inspector Renault. En este caso, el objetivo de la policía secreta alemana es el líder checo y héroe de la resistencia Victor Laszlo, cuya única esperanza es Rick Blaine, propietario del 'Rick’s Café' y antiguo amante de su mujer, Ilsa Lund. Rick e Ilsa se habían conocido en París, pero la entrada de las tropas alemanas en la capital francesa les separó.",
+    "videoUrl": "",
+    "img": "https://bit.ly/3MN3iEb",
+    "details": "Detalles: 720p (SPA)",
+    "downloadUrls": {
+      "Google Drive": "https://bit.ly/3N8q6jb"
+    }
+  },
+  {
+    "id": 3,
+    "varioTitle": "El Escuadrón Suicida",
+    "title": "El Escuadrón Suicida",
+    "synopsis": "Sinopsis: Un grupo de super villanos se encuentran encerrados en Belle Reve, una prisión de alta seguridad con la tasa de mortalidad más alta de Estados Unidos. Para salir de allí harán cualquier cosa, incluso unirse al grupo Task Force X, dedicado a llevar a cabo misiones suicidas bajo las órdenes de Amanda Waller. Fuertemente armados son enviados a la isla Corto Maltese, una jungla repleta de enemigos.",
+    "videoUrl": "",
+    "img": "https://bit.ly/3OTSsPl",
+    "details": "Detalles: (Bluray 2160p 10Bit HDR x265 HEVC) (SPA-ENG)",
+    "downloadUrls": {
+      "Google Drive": "https://bit.ly/3oMMKnM"
+    }
+  },
+  {
+    "id": 10,
+    "varioTitle": "TENET (2020)",
+    "title": "TENET (2020)",
+    "synopsis": "Sinopsis: Armado con tan solo una palabra 'Tenet' el protagonista de esta historia deberá pelear por la supervivencia del mundo entero en una misión que le lleva a viajar a través del oscuro mundo del espionaje internacional, y cuya experiencia se desdoblará más allá del tiempo lineal.",
+    "videoUrl": "",
+    "img": "https://bit.ly/3WTH08D",
+    "details": "Detalles: (SPA-ENG) (2160p) (HDR10) (DTS 5.1)",
+    "downloadUrls": {
+      "Google Drive": "https://bit.ly/3MVw31o"
+    }
+  },
+  {
+    "id": 11,
+    "varioTitle": "Taxi Driver (1976)",
+    "title": "Taxi Driver (1976)",
+    "synopsis": "Sinopsis: Para sobrellevar el insomnio crónico que sufre desde su regreso de Vietnam, Travis Bickle (Robert De Niro) trabaja como taxista nocturno en Nueva York. Es un hombre insociable que apenas tiene contacto con los demás, se pasa los días en el cine y vive prendado de Betsy (Cybill Shepherd), una atractiva rubia que trabaja como voluntaria en una campaña política. Pero lo que realmente obsesiona a Travis es comprobar cómo la violencia, la sordidez y la desolación dominan la ciudad. Y un día decide pasar a la acción.",
+    "videoUrl": "",
+    "img": "https://bit.ly/42mIlpn",
+    "details": "Detalles: (2160p.BluRay.HEVC.DTS-HD.5.1) (SPA-EN)",
+    "downloadUrls": {
+      "Google Drive": "https://bit.ly/3qyosyj"
+    }
+  },
+  {
+    "id": 12,
+    "varioTitle": "Parásitos (2019)",
+    "title": "Parásitos (2019)",
+    "synopsis": "Sinopsis: Ki-taek (Kang-ho Song) es el patriarca de una familia pobre que malvive en un piso bajo en Seúl, pagando las facturas a base de trabajos precarios y robando el wi-fi de los vecinos. Su situación cambia un día en el que su hijo logra que le recomienden para dar clases particulares de inglés en casa de los Park, una familia acaudalada. Utilizando su ingenio, el joven conseguirá ganarse la confianza de la señora de la casa, y así irá introduciendo, poco a poco, al resto de sus familiares en distintos trabajos del servicio doméstico. Será el comienzo de un engranaje incontrolable, del cual nadie saldrá realmente indemne.\nComedia negra de suspense que dirige el surcoreano Bong Joon Ho (Okja, Snowpiercer: Rompenieves), y que cuenta en su reparto con Kang Ho Song (El imperio de las sombras), Sun-kyun Lee (2036 Apocalypse Earth), Yeo-jeong Jo (The target: El objetivo), So-dam Park (Shimajiro and the Rainbow Oasis) y Woo-sik Choi (Tren a Busan).",
+    "videoUrl": "",
+    "img": "https://bit.ly/3WTkaOd",
+    "details": "Detalles: (2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos) (ES-KO)",
+    "downloadUrls": {
+      "Google Drive": "https://bit.ly/3NegDXr"
+    }
+  },
+  {
+    "id": 13,
+    "varioTitle": "Uncharted (2022)",
+    "title": "Uncharted (2022)",
+    "synopsis": "Sinopsis: El astuto ladrón Nathan Drake (Tom Holland) es reclutado por el veterano cazatesoros Victor “Sully” Sullivan (Mark Wahlberg) para recuperar una gran fortuna amasada por Fernando de Magallanes hace 500 años y perdida por la Casa de Moncada. Lo que en un principio era para ambos un plan de robo, se convierte en una carrera de infarto alrededor del mundo para conseguir el botín antes de que lo haga el despiadado Santiago Moncada (Antonio Banderas), quien afirma que él y su familia son los auténticos herederos. Si Nate y Sully consiguen descifrar las pistas y resolver uno de los misterios más antiguos del mundo, estarán en posición de encontrar el tesoro valorado en cinco mil millones de dólares y tal vez incluso el hermano de Nate desaparecido por largo tiempo... pero solo lo conseguirán si aprender a trabajar juntos.",
+    "videoUrl": "",
+    "img": "https://bit.ly/3NdJnzB",
+    "details": "Detalles: (2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos) (ES-EN)",
+    "downloadUrls": {
+      "Google Drive": "https://bit.ly/3NfwDsw"
+    }
+  },
+  {
+    "id": 14,
+    "varioTitle": "Un viaje de diez metros (2014)",
+    "title": "Un viaje de diez metros (2014)",
+    "synopsis": "Sinopsis: Hassan Kadam es un ingenuo profesional culinario con un paladar insuperable. La familia Kadam, lejos de su India natal y liderados por Papa, se establece en un pequeño pueblo para crear un hogar y abrir un restaurante indio, la Maison Mumbai.",
+    "videoUrl": "",
+    "img": "https://bit.ly/3qsb92v",
+    "details": "Detalles: (1080p.BluRay.Remux.DTS-HD.Master.Audio) [ES-EN]",
+    "downloadUrls": {
+      "Google Drive (máxima calidad)": "https://bit.ly/3qx0bIW",
+      "Google Drive (versión comprimida)": "https://bit.ly/43oP7wh"
+    }
+  },
+  {
+    "id": 15,
+    "varioTitle": "Aves de presa (2020)",
+    "title": "Aves de presa (2020)",
+    "synopsis": "Sinopsis: Primera película en solitario de la súpervillana de DC Cómics Harley Quinn. Esta adaptación de los cómics Birds Of Prey de DC nos presenta a Harley Quinn (Margot Robbie) después de separarse del Joker. Tras su emancipación, la villana decide aliarse con otras tres superheroínas para formar el grupo 'Aves de presa'. Además de Quinn, esta asociación está formada por Black Canary (Jurnee Smolett-Bell), Huntress (Mary Elizabeth Winstead) y Renee Montoya (Rosie Perez). Las cuatro heroínas trabajarán juntas para tratar de salvar la vida de una joven, llamada Cassandra Cain (Ella Jay Basco), amenazada por un malvado criminal conocido como Máscara Negra (Ewan McGregor).",
+    "videoUrl": "",
+    "img": "https://bit.ly/3oFhmYA",
+    "details": "Detalles: (2160p.BluRay.HEVC.TrueHD.7.1.Atmos) [ES-EN] / (1080p) [ES-EN]",
+    "downloadUrls": {
+      "Google Drive (1080p)": "https://bit.ly/3MRfN1B",
+      "Google Drive 4K": "https://bit.ly/3qxrEdv"
+    }
+  },
+  {
+    "id": 16,
+    "varioTitle": "Psicosis (1960)",
+    "title": "Psicosis (1960)",
+    "synopsis": "Sinopsis: La secretaria de una empresa inmobiliaria, Marion Crane, no puede casarse con su amante, Sam Loomis. El destino pone en sus manos 40.000 dólares en efectivo que su jefe le confía para depositarlos en el banco. Marion decide apoderarse de esa suma para comenzar con Sam una nueva vida. De camino a California, cae la noche y una fuerte tormenta le obliga a buscar alojamiento en un solitario motel de carretera dirigido por un joven tímido, extraño y algo demente, Norman Bates, y por su madre.",
+    "videoUrl": "",
+    "img": "https://bit.ly/3WRlCRa",
+    "details": "Detalles: (UNCUT.2160p.BDREMUX.HEVC.DTS-X.7.1) [ES-EN] / (CUTTED.2160p.BDREMUX.HEVC.DTS-X.7.1) [ES-CAT-EN] / (1080p.BDRip.AC3.2.0) [ES-CAT-EN]",
+    "downloadUrls": {
+      "Google Drive (versión extendida)": "https://bit.ly/3NefsHz",
+      "Google Drive 2160p (cutted version)": "https://bit.ly/45QgJw0",
+      "Google Drive 1080p (cutted version)": "https://bit.ly/43pTg32"
+    }
+  },
+  {
+    "id": 17,
+    "varioTitle": "Centauros del Desierto (1956)",
+    "title": "Centauros del Desierto (1956)",
+    "synopsis": "Sinopsis: En 1868, tres años después de la guerra de Secesión, Ethan Edwards, un hombre solitario, vuelve derrotado a su hogar. La persecución de los comanches que han raptado a una de sus sobrinas se convertirá en un modo de vida para él y para Martin, un muchacho mestizo adoptado por su familia.",
+    "videoUrl": "",
+    "img": "https://bit.ly/3WQgxbK",
+    "details": "Detalles: (1080p.BluRay.x264.DD2.0) [ES-CAT-EN]",
+    "downloadUrls": {
+      "Google Drive 1080p (1ª opción)": "https://bit.ly/3qsMOcS",
+      "Google Drive 1080p (2ª opción)": "https://bit.ly/43J37AD"
+    }
+  },
+  {
+    "id": 18,
+    "varioTitle": "El Resplandor (Versión extendida) (1980)",
+    "title": "El Resplandor (Versión extendida) (1980)",
+    "synopsis": "Sinopsis: Jack Torrance se traslada con su mujer y su hijo de siete años al impresionante hotel Overlook, en Colorado, para encargarse del mantenimiento de las instalaciones durante la temporada invernal, época en la que permanece cerrado y aislado por la nieve. Su objetivo es encontrar paz y sosiego para escribir una novela. Sin embargo, poco después de su llegada al hotel, al mismo tiempo que Jack empieza a padecer inquietantes trastornos de personalidad, se suceden extraños y espeluznantes fenómenos paranormales.",
+    "videoUrl": "",
+    "img": "https://bit.ly/45RHYGy",
+    "details": "Detalles: (2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1) [ES-EN]",
+    "downloadUrls": {
+      "Google Drive 1080p (1ª opción)": "http://bit.ly/3qzpHO4",
+      "Google Drive 1080p (2ª opción)": "https://bit.ly/3IXO7H2"
+    }
+  },
+  {
+    "id": 19,
+    "varioTitle": "Ready Player One (2018)",
+    "title": "Ready Player One (2018)",
+    "synopsis": "Sinopsis: Año 2045, Wade Watts es un adolescente al que le gusta evadirse del cada vez más sombrío mundo real a través de una popular utopía virtual a escala global llamada Oasis, hasta que su excéntrico y multimillonario creador muere. Antes de morir, ofrece su fortuna como premio a una elaborada búsqueda del tesoro a través de los rincones más inhóspitos de su creación. Será el punto de partida para que Wade se enfrente a jugadores, poderosos enemigos corporativos y otros competidores despiadados dispuestos a hacer lo que sea, tanto dentro de Oasis como del mundo real, para hacerse con el premio.",
+    "videoUrl": "",
+    "img": "https://bit.ly/3Cfm9Da",
+    "details": "Detalles: [4K.REMUX.2160p.HEVC.HDR.ATMOS.7.1] [ES-EN] / (1080p - AC-3 5.1)",
+    "downloadUrls": {
+      "Google Drive (2160p)": "https://bit.ly/3qvhTwK",
+      "Google Drive (1080p)": "https://bit.ly/3WVmrbE"
+    }
+  },
+  {
+    "id": 20,
+    "varioTitle": "Baby Driver (2017)",
+    "title": "Baby Driver (2017)",
+    "synopsis": "Sinopsis: En Atlanta, Georgia, un automóvil rojo se detiene frente a un banco. Dentro hay tres ladrones, Buddy (Jon Hamm), Darling (Eiza González), Griff (Jon Bernthal) y su conductor de fuga, Baby (Ansel Elgort). Los ladrones entran al banco mientras Baby toca la canción 'Bellbottoms'. Momentos después, los ladrones vuelven corriendo al auto. Baby sale de allí con la música a todo volumen en sus oídos. La policía persigue al auto por toda la ciudad, pero Baby es capaz de maniobrar rápidamente a través de los obstáculos haciendo derrapar el auto y haciendo locas maniobras al ritmo de la música mientras evade a la policía. Conduce por la carretera por donde pasan otros dos coches rojos. Una vez que pasan por debajo del puente, Baby puede engañar a la policía y escapar, pero casi queda atrapado en un callejón antes de que Griff lo detenga. Lleva el auto a un estacionamiento donde él y los ladrones toman otro auto y se escapan, justo cuando termina la canción de Baby.",
+    "videoUrl": "",
+    "img": "https://bit.ly/3Cn10Xq",
+    "details": "Detalles: [4K.REMUX.2160p] [ES-EN] / [1080p-AC-3 5.1] [ES-EN]",
+    "downloadUrls": {
+      "Google Drive (2160p)": "https://bit.ly/3oSrFsd",
+      "Google Drive (1080p)": "https://bit.ly/3P1SLrI"
+    }
+  },
+  {
+    "id": 21,
+    "varioTitle": "",
+    "title": "",
+    "synopsis": "",
+    "videoUrl": "",
+    "img": "",
+    "details": "",
+    "downloadUrls": {
+      "Ver online": ""
+    }
+  },
+  {
+    "id": 22,
+    "varioTitle": "",
+    "title": "",
+    "synopsis": "",
+    "videoUrl": "",
+    "img": "",
+    "details": "",
+    "downloadUrls": {
+      "Ver online": ""
+    }
+  },
+  {
+    "id": 23,
+    "varioTitle": "",
+    "title": "",
+    "synopsis": "",
+    "videoUrl": "",
+    "img": "",
+    "details": "",
+    "downloadUrls": {
+      "Ver online": ""
+    }
+  },
+  {
+    "id": 24,
+    "varioTitle": "",
+    "title": "",
+    "synopsis": "",
+    "videoUrl": "",
+    "img": "",
+    "details": "",
+    "downloadUrls": {
+      "Ver online": ""
+    }
+  },
+  {
+    "id": 25,
+    "varioTitle": "",
+    "title": "",
+    "synopsis": "",
+    "videoUrl": "",
+    "img": "",
+    "details": "",
+    "downloadUrls": {
+      "Ver online": ""
+    }
+  },
+  {
+    "id": 26,
+    "varioTitle": "",
+    "title": "",
+    "synopsis": "",
+    "videoUrl": "",
+    "img": "",
+    "details": "",
+    "downloadUrls": {
+      "Ver online": ""
+    }
+  },
+  {
+    "id": 27,
+    "varioTitle": "",
+    "title": "",
+    "synopsis": "",
+    "videoUrl": "",
+    "img": "",
+    "details": "",
+    "downloadUrls": {
+      "Ver online": ""
+    }
+  },
+  {
+    "id": 28,
+    "varioTitle": "",
+    "title": "",
+    "synopsis": "",
+    "videoUrl": "",
+    "img": "",
+    "details": "",
+    "downloadUrls": {
+      "Ver online": ""
+    }
+  },
+  {
+    "id": 29,
+    "varioTitle": "",
+    "title": "",
+    "synopsis": "",
+    "videoUrl": "",
+    "img": "",
+    "details": "",
+    "downloadUrls": {
+      "Ver online": ""
+    }
+  },
+  {
+    "id": 30,
+    "varioTitle": "",
+    "title": "",
+    "synopsis": "",
+    "videoUrl": "",
+    "img": "",
+    "details": "",
+    "downloadUrls": {
+      "Ver online": ""
+    }
+  },
+  {
+    "id": 31,
+    "varioTitle": "",
+    "title": "",
+    "synopsis": "",
+    "videoUrl": "",
+    "img": "",
+    "details": "",
+    "downloadUrls": {
+      "Ver online": ""
+    }
+  },
+  {
+    "id": 32,
+    "varioTitle": "",
+    "title": "",
+    "synopsis": "",
+    "videoUrl": "",
+    "img": "",
+    "details": "",
+    "downloadUrls": {
+      "Ver online": ""
+    }
+  },
+  {
+    "id": 33,
+    "varioTitle": "",
+    "title": "",
+    "synopsis": "",
+    "videoUrl": "",
+    "img": "",
+    "details": "",
+    "downloadUrls": {
+      "Ver online": ""
+    }
+  },
+  {
+    "id": 34,
+    "varioTitle": "",
+    "title": "",
+    "synopsis": "",
+    "videoUrl": "",
+    "img": "",
+    "details": "",
+    "downloadUrls": {
+      "Ver online": ""
+    }
+  },
+  {
+    "id": 35,
+    "varioTitle": "",
+    "title": "",
+    "synopsis": "",
+    "videoUrl": "",
+    "img": "",
+    "details": "",
+    "downloadUrls": {
+      "Ver online": ""
+    }
+  },
+  {
+    "id": 36,
+    "varioTitle": "",
+    "title": "",
+    "synopsis": "",
+    "videoUrl": "",
+    "img": "",
+    "details": "",
+    "downloadUrls": {
+      "Ver online": ""
+    }
+  },
+  {
+    "id": 37,
+    "varioTitle": "",
+    "title": "",
+    "synopsis": "",
+    "videoUrl": "",
+    "img": "",
+    "details": "",
+    "downloadUrls": {
+      "Ver online": ""
+    }
+  },
+  {
+    "id": 38,
+    "varioTitle": "",
+    "title": "",
+    "synopsis": "",
+    "videoUrl": "",
+    "img": "",
+    "details": "",
+    "downloadUrls": {
+      "Ver online": ""
+    }
+  },
+  {
+    "id": 39,
+    "varioTitle": "",
+    "title": "",
+    "synopsis": "",
+    "videoUrl": "",
+    "img": "",
+    "details": "",
+    "downloadUrls": {
+      "Ver online": ""
+    }
+  },
+  {
+    "id": 40,
+    "varioTitle": "",
+    "title": "",
+    "synopsis": "",
+    "videoUrl": "",
+    "img": "",
+    "details": "",
+    "downloadUrls": {
+      "Ver online": ""
     }
   }
 ]

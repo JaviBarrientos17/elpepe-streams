@@ -18,6 +18,16 @@ export default function Peliculas() {
           <h1 className="title text-2xl sm:text-4xl font-bold my-4 text-white text-center">
             Listado de películas
           </h1>
+          <div className="flex justify-center items-center sm:flex-col sm:items-center my-4">
+            <a
+              href={'/sagas'}
+              rel="noopener noreferrer"
+            >
+              <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md inline-flex items-center">
+                Ver sagas
+              </button>
+            </a>
+          </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {peliculas.map((content) => (
               <div key={content.id} className="grid-item">
