@@ -8,7 +8,7 @@ export default function RepeticionesComponent() {
       <Head>
         <title>El Pepe Streams | Repeticiones</title>
       </Head>
-      <div className="flex flex-col justify-center items-center min-h-screen">
+      <div className="flex flex-col justify-center items-center min-h-screen mb-1">
         <div className="max-w-md w-full mx-auto px-4">
           <h1 className="text-4xl font-bold text-white text-center sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl mt-8 mb-8 sm:mt-16 sm:mb-8">
             Repeticiones
