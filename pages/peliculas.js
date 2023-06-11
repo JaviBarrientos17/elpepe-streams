@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import FooterComponent from "../components/FooterComponent";
 import Link from "next/link";
 import Image from "next/image";
+import Head from "next/head";
 import peliculasData from "../data/Películas.json";
 
 export default function Peliculas() {
@@ -13,16 +14,16 @@ export default function Peliculas() {
 
   return (
     <>
+      <Head>
+        <title>El Pepe Streams | Películas</title>
+      </Head>
       <div className="container">
         <div className="max-w-screen-xl px-4 sm:px-6 lg:px-8 content">
           <h1 className="title text-2xl sm:text-4xl font-bold my-4 text-white text-center">
             Listado de películas
           </h1>
           <div className="flex justify-center items-center sm:flex-col sm:items-center my-4">
-            <a
-              href={'/sagas'}
-              rel="noopener noreferrer"
-            >
+            <a href={"/sagas"} rel="noopener noreferrer">
               <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md inline-flex items-center">
                 Ver sagas
               </button>

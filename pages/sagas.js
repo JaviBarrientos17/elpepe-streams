@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import Head from "next/head";
 import sagasData from "../data/Sagas.json";
 import FooterComponent from "../components/FooterComponent";
 
@@ -9,6 +10,9 @@ export default function Sagas() {
 
   return (
     <>
+      <Head>
+        <title>El Pepe Streams | Sagas</title>
+      </Head>
       <div className="container">
         <div className="max-w-screen-xl px-4 sm:px-6 lg:px-8 content">
           <h1 className="title text-2xl sm:text-4xl font-bold my-4 text-white text-center">

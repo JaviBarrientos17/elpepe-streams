@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import Head from "next/head";
 import FooterComponent from "../components/FooterComponent";
 import f2Data from "../data/F2.json";
 
@@ -12,6 +13,9 @@ export default function F2() {
 
   return (
     <>
+      <Head>
+        <title>El Pepe Streams | F2</title>
+      </Head>
       <div className={`container`}>
         <div className={`max-w-screen-xl px-4 sm:px-6 lg:px-8 content`}>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
@@ -24,9 +28,7 @@ export default function F2() {
                   <Image
                     alt={f2Mapped.title}
                     src={
-                      window.innerWidth >= 768
-                        ? f2Mapped.img
-                        : f2Mapped.imgWebp
+                      window.innerWidth >= 768 ? f2Mapped.img : f2Mapped.imgWebp
                     }
                     fallback={
                       window.innerWidth >= 768

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import Head from "next/head";
 import FooterComponent from "../components/FooterComponent";
 import f3Data from "../data/F3.json";
 
@@ -12,6 +13,9 @@ export default function F3() {
 
   return (
     <>
+      <Head>
+        <title>El Pepe Streams | F3</title>
+      </Head>
       <div className={`container`}>
         <div className={`max-w-screen-xl px-4 sm:px-6 lg:px-8 content`}>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
@@ -24,9 +28,7 @@ export default function F3() {
                   <Image
                     alt={f3Mapped.title}
                     src={
-                      window.innerWidth >= 768
-                        ? f3Mapped.img
-                        : f3Mapped.imgWebp
+                      window.innerWidth >= 768 ? f3Mapped.img : f3Mapped.imgWebp
                     }
                     fallback={
                       window.innerWidth >= 768

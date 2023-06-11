@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import Head from "next/head";
 import FooterComponent from "../components/FooterComponent";
 import f1Data from "../data/F1.json";
 
@@ -12,6 +13,9 @@ export default function F1() {
 
   return (
     <>
+      <Head>
+        <title>El Pepe Streams | F1</title>
+      </Head>
       <div className={`container`}>
         <div className={`max-w-screen-xl px-4 sm:px-6 lg:px-8 content`}>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">

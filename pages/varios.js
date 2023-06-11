@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import FooterComponent from "../components/FooterComponent";
 import Link from "next/link";
 import Image from "next/image";
+import Head from "next/head";
 import variosData from "../data/Varios.json";
 
 export default function Varios() {
@@ -13,10 +14,13 @@ export default function Varios() {
 
   return (
     <>
+      <Head>
+        <title>El Pepe Streams | Varios</title>
+      </Head>
       <div className="container">
         <div className="max-w-screen-xl px-4 sm:px-6 lg:px-8 content">
           <h1 className="title text-2xl sm:text-4xl font-bold my-4 text-white text-center">
-            Listado de Motor (varios)
+            Varios
           </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {varios.map((content) => (
