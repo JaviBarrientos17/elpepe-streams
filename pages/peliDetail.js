@@ -49,12 +49,12 @@ export default function PeliDetail() {
                 }}
               >
                 {showDefaultOption && (
-                  <option value="" disabled className="text-white">
+                  <option value="" disabled className="text-black">
                     Selecciona
                   </option>
                 )}
                 {Object.keys(peli.downloadUrls).map((key) => (
-                  <option key={key} value={key} className="text-white">
+                  <option key={key} value={key} className="text-black">
                     {key}
                   </option>
                 ))}
