@@ -10,7 +10,7 @@ const FooterComponent = () => {
           <div className="flex justify-center col-span-2 lg:justify-start">
             <img
               src="https://i.imgur.com/Oz0IbSQ.png"
-              className="h-20"
+              className="h-10"
               alt="El Pepe Streams Logo"
             />
           </div>
