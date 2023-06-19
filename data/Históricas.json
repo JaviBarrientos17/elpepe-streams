@@ -1,34 +1,42 @@
 [
   {
-    "key": 1,
-    "title": "GP Australia 2006",
-    "videoUrl": "https://bit.ly/3zDefSP",
-    "poster": "https://bit.ly/40QCusD",
-    "description": "",
-    "downloadUrl": "https://oke.io/pIuKmX"
+    "id": 1,
+    "varioTitle": "Temporada 2006",
+    "title": "Temporada 2006",
+    "synopsis": "Sinopsis: ",
+    "videoUrl": "",
+    "img": "https://bit.ly/3Nf915M",
+    "detailsImg": "https://bit.ly/3Ph1LZN",
+    "details": "Detalles: ",
+    "downloadUrls": {
+      "Gran Premio de Australia 2006": "https://oke.io/pIuKmX"
+    }
   },
   {
-    "key": 2,
-    "title": "GP Australia 2007",
-    "videoUrl": "https://bit.ly/43gDuYE",
-    "poster": "https://bit.ly/41dZpOl",
-    "description": "",
-    "downloadUrl": "https://oke.io/rOkLbhXs"
+    "id": 2,
+    "varioTitle": "Temporada 2007",
+    "title": "Temporada 2007",
+    "synopsis": "Sinopsis: ",
+    "videoUrl": "",
+    "img": "https://bit.ly/4676djW",
+    "detailsImg": "https://bit.ly/3PdkS75",
+    "details": "Detalles: ",
+    "downloadUrls": {
+      "Gran Premio de Australia 2007": "https://oke.io/rOkLbhXs"
+    }
   },
   {
-    "key": 3,
-    "title": "GP Abu Dhabi 2012",
-    "videoUrl": "https://bit.ly/3KHxVeq",
-    "poster": "https://bit.ly/3okd3kL",
-    "description": "",
-    "downloadUrl": "https://oke.io/tfaS7ihH"
-  },
-  {
-    "key": 4,
-    "title": "GP de Europa 2012",
-    "videoUrl": "https://bit.ly/3GrMRuG",
-    "poster": "https://bit.ly/3nN1guU",
-    "description": "",
-    "downloadUrl": "https://oke.io/a0qeGd"
+    "id": 2,
+    "varioTitle": "Temporada 2012",
+    "title": "Temporada 2012",
+    "synopsis": "Sinopsis: ",
+    "videoUrl": "",
+    "img": "https://bit.ly/3PeYr1k",
+    "detailsImg": "https://bit.ly/3qMwrbo",
+    "details": "Detalles: ",
+    "downloadUrls": {
+      "Gran Premio de Europa 2012": "https://oke.io/a0qeGd",
+      "Gran Premio de Abu Dhabi 2012": "https://oke.io/tfaS7ihH"
+    }
   }
 ]
