@@ -26,7 +26,20 @@
     }
   },
   {
-    "id": 2,
+    "id": 3,
+    "varioTitle": "Temporada 2011",
+    "title": "Temporada 2011",
+    "synopsis": "Sinopsis: ",
+    "videoUrl": "",
+    "img": "http://bit.ly/3XdedvP",
+    "detailsImg": "https://bit.ly/3XiqPS9",
+    "details": "Detalles: ",
+    "downloadUrls": {
+      "Gran Premio de Canadá 2011": ""
+    }
+  },
+  {
+    "id": 4,
     "varioTitle": "Temporada 2012",
     "title": "Temporada 2012",
     "synopsis": "Sinopsis: ",
