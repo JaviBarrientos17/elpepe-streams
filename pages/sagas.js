@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import Head from "next/head";
 import sagasData from "../data/Sagas.json";
 import FooterComponent from "../components/FooterComponent";
@@ -23,11 +22,10 @@ export default function Sagas() {
               <div key={saga.id} className="grid-item">
                 <Link href={`/sagas/${saga.id}`} passHref legacyBehavior>
                   <a>
-                    <Image
+                    <img
                       alt={saga.title}
                       src={saga.img}
-                      width={800}
-                      height={600}
+                      style={{ width: "400px", height: "400px" }}
                       className="object-contain"
                     />
                   </a>

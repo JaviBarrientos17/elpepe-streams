@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import FooterComponent from "../components/FooterComponent";
 import Link from "next/link";
-import Image from "next/image";
 import Head from "next/head";
 import peliculasData from "../data/Películas.json";
 
@@ -34,11 +33,10 @@ export default function Peliculas() {
               <div key={content.id} className="grid-item">
                 <Link href={`/peliculas/${content.id}`} passHref legacyBehavior>
                   <a>
-                    <Image
+                    <img
                       alt={content.title}
                       src={content.img}
-                      width={800}
-                      height={600}
+                      style={{ width: "400px", height: "400px" }}
                       className="object-contain"
                     />
                   </a>
