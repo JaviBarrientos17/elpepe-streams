@@ -21,6 +21,7 @@ export default function PeliDetail() {
     }, 2000);
   }, []);
 
+  
   const peli = PeliData.find((peli) => peli.id === parseInt(id));
 
   return isLoading ? (
