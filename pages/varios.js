@@ -4,15 +4,24 @@ import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
 import variosData from "../data/Varios.json";
+import LoadingAnimationComponent from "../components/LoadingAnimationComponent";
 
 export default function Varios() {
   const [varios, setVarios] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    setVarios(variosData);
+    setTimeout(() => {
+      setVarios(variosData);
+      setIsLoading(false);
+    }, 2000);
   }, []);
 
-  return (
+  return isLoading ? (
+    <div className="flex justify-center items-center h-screen">
+      <LoadingAnimationComponent />
+    </div>
+  ) : (
     <>
       <Head>
         <title>El Pepe Streams | Varios</title>

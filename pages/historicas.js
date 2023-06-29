@@ -1,14 +1,26 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
 import historicasData from "../data/Históricas.json";
 import FooterComponent from "../components/FooterComponent";
+import LoadingAnimationComponent from "../components/LoadingAnimationComponent";
 
 export default function Historicas() {
   const [historicas, setHistoricas] = useState(historicasData);
+  const [isLoading, setIsLoading] = useState(true);
 
-  return (
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  }, []);
+
+  return isLoading ? (
+    <div className="flex justify-center items-center h-screen">
+      <LoadingAnimationComponent />
+    </div>
+  ) : (
     <>
       <Head>
         <title>El Pepe Streams | Históricas</title>

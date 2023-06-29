@@ -1,9 +1,22 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import Head from "next/head";
 import FooterComponent from "../components/FooterComponent";
+import LoadingAnimationComponent from "../components/LoadingAnimationComponent";
 
 export default function RepeticionesComponent() {
-  return (
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  }, []);
+
+  return isLoading ? (
+    <div className="flex justify-center items-center h-screen">
+      <LoadingAnimationComponent />
+    </div>
+  ) : (
     <>
       <Head>
         <title>El Pepe Streams | Repeticiones</title>

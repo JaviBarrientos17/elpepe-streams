@@ -3,12 +3,17 @@ import FooterComponent from "../components/FooterComponent";
 import Link from "next/link";
 import Head from "next/head";
 import peliculasData from "../data/Películas.json";
+import LoadingAnimationComponent from "../components/LoadingAnimationComponent";
 
 export default function Peliculas() {
   const [peliculas, setPeliculas] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    setPeliculas(peliculasData);
+    setTimeout(() => {
+      setPeliculas(peliculasData);
+      setIsLoading(false);
+    }, 2000);
   }, []);
 
   return (
@@ -28,28 +33,34 @@ export default function Peliculas() {
               </button>
             </a>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {peliculas.map((content) => (
-              <div key={content.id} className="grid-item">
-                <Link href={`/peliculas/${content.id}`} passHref legacyBehavior>
-                  <a>
-                    <img
-                      alt={content.title}
-                      src={content.img}
-                      style={{ width: "400px", height: "400px" }}
-                      className="object-contain"
-                    />
-                  </a>
-                </Link>
-                <div className="p-4 text-white text-justify">
-                  <h2 className="text-xl font-bold text-center">
-                    {content.title}
-                  </h2>
-                  <p>{content.description}</p>
+          {isLoading ? (
+            <div className="flex justify-center items-center h-screen">
+              <LoadingAnimationComponent />
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              {peliculas.map((content) => (
+                <div key={content.id} className="grid-item">
+                  <Link href={`/peliculas/${content.id}`} passHref legacyBehavior>
+                    <a>
+                      <img
+                        alt={content.title}
+                        src={content.img}
+                        style={{ width: "400px", height: "400px" }}
+                        className="object-contain"
+                      />
+                    </a>
+                  </Link>
+                  <div className="p-4 text-white text-justify">
+                    <h2 className="text-xl font-bold text-center">
+                      {content.title}
+                    </h2>
+                    <p>{content.description}</p>
+                  </div>
                 </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          )}
         </div>
       </div>
       <FooterComponent />

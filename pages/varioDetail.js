@@ -1,12 +1,14 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import VarioData from "../data/Varios.json";
+import LoadingAnimationComponent from "../components/LoadingAnimationComponent";
 
 export default function VarioDetail() {
   const router = useRouter();
   const { id } = router.query;
   const [season, setSeason] = useState("");
   const [showDefaultOption, setShowDefaultOption] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
 
   const handleSelectChange = (event) => {
     setSeason(event.target.value);
@@ -15,7 +17,17 @@ export default function VarioDetail() {
 
   const vario = VarioData.find((vario) => vario.id === parseInt(id));
 
-  return vario ? (
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  }, []);
+
+  return isLoading ? (
+    <div className="flex justify-center items-center h-screen">
+      <LoadingAnimationComponent />
+    </div>
+  ) : (
     <div className="container mx-auto">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 content">
         <h1 className="title text-2xl sm:text-4xl font-bold my-4">
@@ -49,12 +61,12 @@ export default function VarioDetail() {
                 }}
               >
                 {showDefaultOption && (
-                  <option value="" disabled className="text-white">
+                  <option value="" disabled className="text-black">
                     Selecciona
                   </option>
                 )}
                 {Object.keys(vario.downloadUrls).map((key) => (
-                  <option key={key} value={key} className="text-white">
+                  <option key={key} value={key} className="text-black">
                     {key}
                   </option>
                 ))}
@@ -66,7 +78,7 @@ export default function VarioDetail() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md inline-flex items-center">
+                  <button className="bg-green-500 hover:bg-green-700 text-black font-bold py-2 px-4 rounded-md inline-flex items-center">
                     Descargar {season}
                   </button>
                 </a>
@@ -76,5 +88,5 @@ export default function VarioDetail() {
         </div>
       </div>
     </div>
-  ) : null;
+  );
 }

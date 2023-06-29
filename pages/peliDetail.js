@@ -1,21 +1,33 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import PeliData from "../data/Películas.json";
+import LoadingAnimationComponent from "../components/LoadingAnimationComponent";
 
 export default function PeliDetail() {
   const router = useRouter();
   const { id } = router.query;
   const [season, setSeason] = useState("");
   const [showDefaultOption, setShowDefaultOption] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
 
   const handleSelectChange = (event) => {
     setSeason(event.target.value);
     setShowDefaultOption(false);
   };
 
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  }, []);
+
   const peli = PeliData.find((peli) => peli.id === parseInt(id));
 
-  return peli ? (
+  return isLoading ? (
+    <div className="flex justify-center items-center h-screen">
+      <LoadingAnimationComponent />
+    </div>
+  ) : peli ? (
     <div className="container mx-auto">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 content">
         <h1 className="title text-2xl sm:text-4xl font-bold my-4">
@@ -71,17 +83,6 @@ export default function PeliDetail() {
                   </button>
                 </a>
               ) : null}
-              {/* <div className="aspect-w-16 aspect-h-9">
-                <video
-                  width="320"
-                  height="240"
-                  className="w-full h-full rounded-lg"
-                  poster={peli.img}
-                  controls
-                >
-                  <source src={peli.videoUrl} type="video/mp4" />
-                </video>
-              </div> */}
             </div>
           ) : null}
         </div>

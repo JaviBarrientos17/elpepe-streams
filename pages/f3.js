@@ -3,15 +3,24 @@ import Image from "next/image";
 import Head from "next/head";
 import FooterComponent from "../components/FooterComponent";
 import f3Data from "../data/F3.json";
+import LoadingAnimationComponent from "../components/LoadingAnimationComponent";
 
 export default function F3() {
   const [f3, setF3] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    setF3(f3Data);
+    setTimeout(() => {
+      setF3(f3Data);
+      setIsLoading(false);
+    }, 2000);
   }, []);
 
-  return (
+  return isLoading ? (
+    <div className="flex justify-center items-center h-screen">
+      <LoadingAnimationComponent />
+    </div>
+  ) : (
     <>
       <Head>
         <title>El Pepe Streams | F3</title>

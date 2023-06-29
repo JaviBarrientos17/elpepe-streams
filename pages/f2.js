@@ -3,15 +3,24 @@ import Image from "next/image";
 import Head from "next/head";
 import FooterComponent from "../components/FooterComponent";
 import f2Data from "../data/F2.json";
+import LoadingAnimationComponent from "../components/LoadingAnimationComponent";
 
 export default function F2() {
   const [f2, setF2] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    setF2(f2Data);
+    setTimeout(() => {
+      setF2(f2Data);
+      setIsLoading(false);
+    }, 2000);
   }, []);
 
-  return (
+  return isLoading ? (
+    <div className="flex justify-center items-center h-screen">
+      <LoadingAnimationComponent />
+    </div>
+  ) : (
     <>
       <Head>
         <title>El Pepe Streams | F2</title>

@@ -3,15 +3,24 @@ import Image from "next/image";
 import Head from "next/head";
 import FooterComponent from "../components/FooterComponent";
 import f1Data from "../data/F1.json";
+import LoadingAnimationComponent from "../components/LoadingAnimationComponent";
 
 export default function F1() {
   const [f1, setF1] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    setF1(f1Data);
+    setTimeout(() => {
+      setF1(f1Data);
+      setIsLoading(false);
+    }, 2000);
   }, []);
 
-  return (
+  return isLoading ? (
+    <div className="flex justify-center items-center h-screen">
+     <LoadingAnimationComponent />
+    </div>
+  ) : (
     <>
       <Head>
         <title>El Pepe Streams | F1</title>
