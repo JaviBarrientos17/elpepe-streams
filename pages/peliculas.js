@@ -41,13 +41,16 @@ export default function Peliculas() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               {peliculas.map((content) => (
                 <div key={content.id} className="grid-item">
-                  <Link href={`/peliculas/${content.id}`} passHref legacyBehavior>
+                  <Link
+                    href={`/peliculas/${content.id}`}
+                    passHref
+                    legacyBehavior
+                  >
                     <a>
                       <img
                         alt={content.title}
                         src={content.img}
-                        style={{ width: "400px", height: "400px" }}
-                        className="object-contain"
+                        className="w-full h-auto md:w-auto md:h-auto lg:w-auto lg:h-auto sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] lg:w-[600px] lg:h-[600px]"
                       />
                     </a>
                   </Link>
