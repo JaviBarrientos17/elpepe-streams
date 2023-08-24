@@ -61,12 +61,12 @@ export default function SerieDetail() {
                 }}
               >
                 {showDefaultOption && (
-                  <option value="" disabled className="text-white">
+                  <option value="" disabled className="text-black">
                     Selecciona
                   </option>
                 )}
                 {Object.keys(serie.downloadUrls).map((key) => (
-                  <option key={key} value={key} className="text-white">
+                  <option key={key} value={key} className="text-black">
                     {key}
                   </option>
                 ))}
