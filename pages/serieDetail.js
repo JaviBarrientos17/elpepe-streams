@@ -35,7 +35,10 @@ export default function SerieDetail() {
         </h1>
         <img
           alt={serie.title}
-          src={serie.img}
+
+          // TODO - HACER LO MISMO EN PELÍCULAS
+
+          src={window.innerWidth >= 768 ? serie.horizontalImg : serie.img}
           className="w-full object-contain"
         />
         <div className="p-4">
