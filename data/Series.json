@@ -247,7 +247,19 @@
     "horizontalImg": "https://bit.ly/44ljEe8",
     "details": "Detalles: (1080p.NF.WEB-DL.x265.DDP5.1) [ES-EN]",
     "downloadUrls": {
-      "Todas las temporadas": "https://bit.ly/3E9BRjT"
+      "Google Drive (1080p) [Temporada 1->9]": "https://bit.ly/3E9BRjT"
+    }
+  },
+  {
+    "id": 18,
+    "sagaTitle": "Breaking Bad (2008)",
+    "title": "Breaking Bad",
+    "synopsis": "Sinopsis: Bryan Cranston, ganador de un Emmy, interpreta a Walter White, un profesor de química venido a menos que lucha por llegar a fin de mes y mantener a su esposa (Anna Gunn) y a un hijo incapacitado (RJ Mitte). Todo cambia cuando a Walter le diagnostican un cáncer terminal de pulmón. Como sólo le quedan unos cuantos años de vida y no tiene nada que perder, Walter usa sus conocimientos de química para fabricar y vender metanfetamina a uno de sus antiguos estudiantes (Aaron Paul). A medida que el negocio crece, también lo hacen las mentiras, pero Walt hará lo que sea para asegurar el futuro de su familia aunque para ello tenga que arriesgar sus vidas.",
+    "img": "https://bit.ly/44o38d5",
+    "horizontalImg": "https://bit.ly/3EeboC1",
+    "details": "Detalles: (1080p.BDRip.AVC.AC-3.5.1) [ES-EN]",
+    "downloadUrls": {
+      "Google Drive (1080p) [Temporada 1->5]": "https://bit.ly/3Pcp9XW"
     }
   }
 ]

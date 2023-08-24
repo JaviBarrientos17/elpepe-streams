@@ -37,6 +37,7 @@ export default function SerieDetail() {
           alt={serie.title}
 
           // TODO - HACER LO MISMO EN PELÍCULAS
+          // TODO - AÑADIR IMGS HORIZONTALES EN SERIES Y EN PELIS
 
           src={window.innerWidth >= 768 ? serie.horizontalImg : serie.img}
           className="w-full object-contain"
